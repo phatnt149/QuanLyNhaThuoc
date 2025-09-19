@@ -1,0 +1,16 @@
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\BUS_QLNT.exe.config
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\BUS_QLNT.exe
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\BUS_QLNT.pdb
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DAL_QLNT.exe
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DTO_QLNT.exe
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DAL_QLNT.pdb
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DAL_QLNT.exe.config
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DTO_QLNT.pdb
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DTO_QLNT.exe.config
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.AssemblyReference.cache
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.Properties.Resources.resources
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.GenerateResource.cache
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs.cache
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.Up2Date
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.exe
+L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.pdb
