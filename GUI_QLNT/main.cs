@@ -29,25 +29,26 @@ namespace GUI_QLNT
 
         private void OpenChildForm(Form childForm)
         {
-            // Xóa form con cũ (nếu có)
+            // Xóa control cũ trong panel (nếu có)
             panelMain.Controls.Clear();
 
-            childForm.TopLevel = false;
+            childForm.TopLevel = false;   // ⬅️ quan trọng
             childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill; // Chiếm toàn bộ panel
+            childForm.Dock = DockStyle.Fill;
 
             panelMain.Controls.Add(childForm);
             childForm.Show();
+
         }
 
         private void BtnNhanVien_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new login());
+            OpenChildForm(new NhanVien());
         }
 
         private void BtnNhaCungCap_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Quản lý nhà cung cấp");
+            OpenChildForm(new NCC());
         }
 
         private void BtnLoaiDP_Click(object sender, EventArgs e)
@@ -109,5 +110,12 @@ namespace GUI_QLNT
         {
             MessageBox.Show("Trợ giúp");
         }
+
+        private void main_MaximumSizeChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+       
     }
 }

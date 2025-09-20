@@ -27,7 +27,7 @@ namespace GUI_QLNT
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            this.chkRemember = new System.Windows.Forms.CheckBox();
+            this.chkShowpass = new System.Windows.Forms.CheckBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.panelLogin.SuspendLayout();
             this.SuspendLayout();
@@ -41,7 +41,7 @@ namespace GUI_QLNT
             this.panelLogin.Controls.Add(this.txtUsername);
             this.panelLogin.Controls.Add(this.lblPassword);
             this.panelLogin.Controls.Add(this.txtPassword);
-            this.panelLogin.Controls.Add(this.chkRemember);
+            this.panelLogin.Controls.Add(this.chkShowpass);
             this.panelLogin.Controls.Add(this.btnLogin);
             this.panelLogin.Location = new System.Drawing.Point(86, 43);
             this.panelLogin.Name = "panelLogin";
@@ -93,21 +93,22 @@ namespace GUI_QLNT
             // 
             this.txtPassword.Location = new System.Drawing.Point(94, 94);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '•';
             this.txtPassword.Size = new System.Drawing.Size(146, 20);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
-            // chkRemember
+            // chkShowpass
             // 
-            this.chkRemember.AutoSize = true;
-            this.chkRemember.BackColor = System.Drawing.Color.Transparent;
-            this.chkRemember.ForeColor = System.Drawing.Color.White;
-            this.chkRemember.Location = new System.Drawing.Point(94, 126);
-            this.chkRemember.Name = "chkRemember";
-            this.chkRemember.Size = new System.Drawing.Size(133, 17);
-            this.chkRemember.TabIndex = 5;
-            this.chkRemember.Text = "Forgot your password?";
-            this.chkRemember.UseVisualStyleBackColor = false;
+            this.chkShowpass.AutoSize = true;
+            this.chkShowpass.BackColor = System.Drawing.Color.Transparent;
+            this.chkShowpass.ForeColor = System.Drawing.Color.White;
+            this.chkShowpass.Location = new System.Drawing.Point(94, 126);
+            this.chkShowpass.Name = "chkShowpass";
+            this.chkShowpass.Size = new System.Drawing.Size(110, 17);
+            this.chkShowpass.TabIndex = 5;
+            this.chkShowpass.Text = "Show password ?";
+            this.chkShowpass.UseVisualStyleBackColor = false;
+            this.chkShowpass.CheckedChanged += new System.EventHandler(this.chkShowpass_CheckedChanged);
             // 
             // btnLogin
             // 
@@ -149,7 +150,7 @@ namespace GUI_QLNT
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.CheckBox chkRemember;
+        private System.Windows.Forms.CheckBox chkShowpass;
         private System.Windows.Forms.Button btnLogin;
     }
 }

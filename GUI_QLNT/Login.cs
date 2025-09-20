@@ -1,10 +1,15 @@
 ﻿using System;
+using System.Data.SqlClient;
+using System.Data;
 using System.Windows.Forms;
+using DTO_QLNT;
+using BUS_QLNT;
 
 namespace GUI_QLNT
 {
     public partial class login : Form
     {
+        BUS_NhanVien busNV = new BUS_NhanVien();
         public login()
         {
             InitializeComponent();
@@ -13,17 +18,54 @@ namespace GUI_QLNT
         
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string username = txtUsername.Text.Trim();
-            string password = txtPassword.Text.Trim();
+            try
+            {
+                if (txtUsername.Text == "")
+                {
+                    MessageBox.Show("Tên Đăng Nhập Trống");
+                }
+                else if (txtPassword.Text == "")
+                {
+                    MessageBox.Show("Mật Khẩu Trống");
+                }
+                string username = txtUsername.Text;
+                string password = busNV.maHoaMD5(txtPassword.Text);
+                string query = "SELECT * FROM NhanVien WHERE Username='" + username + "' AND Password='" + password + "'";
+                var dtKQ = busNV.getNhanVien(query);
+                if (dtKQ.Rows.Count > 0)
+                {
 
-            if (username == "admin" && password == "123")
-            {
-                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
+                    main m = new main();
+                    m.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Đăng Nhập Thất Bại");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void chkShowpass_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (chkShowpass.Checked == true)
+                {
+                    txtPassword.UseSystemPasswordChar = false;
+                }
+                else
+                {
+                    txtPassword.UseSystemPasswordChar = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }

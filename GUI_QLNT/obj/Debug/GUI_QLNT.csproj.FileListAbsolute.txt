@@ -16,3 +16,9 @@ L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.Up2Date
 L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.exe
 L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.pdb
 L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.main.resources
+L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\bin\Debug\DAL_QLNT.exe
+L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\bin\Debug\DAL_QLNT.pdb
+L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\bin\Debug\DAL_QLNT.exe.config
+L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNV.NhanVienDetail.resources
+L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.NhanVien.resources
+L:\SQL SEVER\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.NCC.resources

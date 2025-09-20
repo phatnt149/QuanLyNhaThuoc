@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using GUI_QLNV;
+using System;
 using System.Windows.Forms;
 
 namespace GUI_QLNT
@@ -10,7 +12,7 @@ namespace GUI_QLNT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new main());
+            Application.Run(new login());
         }
     }
 }
