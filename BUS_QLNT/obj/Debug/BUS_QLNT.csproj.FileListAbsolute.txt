@@ -14,3 +14,19 @@ L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs
 L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.Up2Date
 L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.exe
 L:\SQL SEVER\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.pdb
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\BUS_QLNT.exe.config
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\BUS_QLNT.exe
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\BUS_QLNT.pdb
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DAL_QLNT.exe
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DTO_QLNT.exe
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DAL_QLNT.pdb
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DAL_QLNT.exe.config
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DTO_QLNT.pdb
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\bin\Debug\DTO_QLNT.exe.config
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.AssemblyReference.cache
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.Properties.Resources.resources
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.GenerateResource.cache
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs.cache
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.Up2Date
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.exe
+D:\Project\QuanLyNhaThuoc\BUS_QLNT\obj\Debug\BUS_QLNT.pdb

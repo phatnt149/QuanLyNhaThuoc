@@ -165,5 +165,55 @@ namespace DAL_QLNT
             return dt;
         }
 
+        /// <summary>
+        /// Hàm đăng nhập, trả về đối tượng DTO_NhanVien nếu thành công, null nếu thất bại
+        /// 
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        public DTO_NhanVien DangNhap(string username, string password)
+        {
+            try
+            {
+                _conn.Open();
+                string query = "SELECT * FROM NhanVien WHERE userName = @username AND passWord = @password";
+                using (SqlCommand cmd = new SqlCommand(query, _conn))
+                {
+                    cmd.Parameters.AddWithValue("@username", username);
+                    cmd.Parameters.AddWithValue("@password", password);
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            // Lấy thông tin nhân viên từ DB
+                            DTO_NhanVien nv = new DTO_NhanVien
+                            {
+                                UserName = reader["userName"].ToString(),
+                                PassWord = reader["passWord"].ToString(),
+                                HoTen = reader["hoTen"].ToString(),
+                                NgaySinh = reader["ngaySinh"] != DBNull.Value ? Convert.ToDateTime(reader["ngaySinh"]) : DateTime.MinValue,
+                                GioiTinh = reader["gioiTinh"].ToString(),
+                                DiaChi = reader["diaChi"].ToString(),
+                                HinhAnh = reader["hinhAnh"] != DBNull.Value ? (byte[])reader["hinhAnh"] : null,
+                                ChucVu = reader["chucVu"].ToString()
+                            };
+                            return nv;
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Lỗi: " + e.Message);
+            }
+            finally
+            {
+                _conn.Close();
+            }
+
+            return null; // Không tìm thấy tài khoản, mật khẩu hoặc tài khoản sai
+        }
+
     }
 }

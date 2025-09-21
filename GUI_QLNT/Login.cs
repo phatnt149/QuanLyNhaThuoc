@@ -20,29 +20,27 @@ namespace GUI_QLNT
         {
             try
             {
-                if (txtUsername.Text == "")
-                {
-                    MessageBox.Show("Tên Đăng Nhập Trống");
-                }
-                else if (txtPassword.Text == "")
-                {
-                    MessageBox.Show("Mật Khẩu Trống");
-                }
                 string username = txtUsername.Text;
                 string password = busNV.maHoaMD5(txtPassword.Text);
-                string query = "SELECT * FROM NhanVien WHERE Username='" + username + "' AND Password='" + password + "'";
-                var dtKQ = busNV.getNhanVien(query);
-                if (dtKQ.Rows.Count > 0)
-                {
 
-                    main m = new main();
-                    m.Show();
-                    this.Hide();
-                }
-                else
+                if (username == "")
                 {
-                    MessageBox.Show("Đăng Nhập Thất Bại");
+                    MessageBox.Show("Tên Đăng Nhập Trống");
+                    return;
                 }
+                else if (password == "")
+                {
+                    MessageBox.Show("Mật Khẩu Trống");
+                    return;
+                }
+
+                DTO_NhanVien nv = busNV.DangNhap(username, password);
+
+
+                // TODO: Lưu thông tin nhân viên đăng nhập
+                main m = new main();
+                m.Show();
+                this.Hide();
             }
             catch (Exception ex)
             {

@@ -46,5 +46,20 @@ namespace BUS_QLNT
         {
             return dalNhanVien.xoaNhanVien(userName);
         }
+
+        public DTO_NhanVien DangNhap(string userName, string passWord)
+        {
+            string hassedPass = maHoaMD5(passWord);
+            Console.WriteLine(hassedPass);
+            DTO_NhanVien user = dalNhanVien.DangNhap(userName, hassedPass);
+            if (user != null)
+            {
+                return user;
+            }
+            else
+            {
+                throw new Exception("Đăng nhập thất bại, vui lòng kiểm tra lại tên đăng nhập và mật khẩu.");
+            }
+        }
     }
 }

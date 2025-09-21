@@ -8,6 +8,6 @@ namespace DAL_QLNT
 {
     public class DBConnect
     {
-        protected SqlConnection _conn = new SqlConnection("Data Source=TIENPHAT;Initial Catalog=QLNT_FIXED;Integrated Security=True;Encrypt=False");
+        protected SqlConnection _conn = new SqlConnection("Data Source=CONGCHUAHIEP;Initial Catalog=QLNT;Integrated Security=True;Encrypt=False");
     }
 }
