@@ -1,9 +1,0 @@
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\bin\Debug\DTO_QLNT.exe.config
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\bin\Debug\DTO_QLNT.exe
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\bin\Debug\DTO_QLNT.pdb
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\obj\Debug\DTO_QLNT.csproj.AssemblyReference.cache
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\obj\Debug\DTO_QLNT.Properties.Resources.resources
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\obj\Debug\DTO_QLNT.csproj.GenerateResource.cache
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\obj\Debug\DTO_QLNT.csproj.CoreCompileInputs.cache
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\obj\Debug\DTO_QLNT.exe
-L:\SQL SEVER\QuanLyNhaThuoc\DTO_QLNT\obj\Debug\DTO_QLNT.pdb
