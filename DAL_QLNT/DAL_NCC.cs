@@ -145,5 +145,29 @@ namespace DAL_QLNT
             return dt;
         }
 
+        public DataTable timNhaCCTheoTen(string tenNCC)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                _conn.Open();
+                string SQL = "SELECT * FROM NHACUNGCAP WHERE tenNCC LIKE @tenNcc";
+                SqlCommand cmd = new SqlCommand(SQL, _conn);
+                cmd.Parameters.AddWithValue("@tenNcc", "%" + tenNCC + "%"); // tìm gần đúng
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Lỗi: " + e.Message);
+            }
+            finally
+            {
+                _conn.Close();
+            }
+            return dt;
+        }
+
     }
 }

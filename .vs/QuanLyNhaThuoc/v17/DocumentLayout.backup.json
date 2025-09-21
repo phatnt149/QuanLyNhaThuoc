@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "L:\\SQL SEVER\\QuanLyNhaThuoc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\gui_qlnt\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\gui_qlnt\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|L:\\SQL SEVER\\QuanLyNhaThuoc\\gui_qlnt\\thongkeban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\thongkeban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|L:\\SQL SEVER\\QuanLyNhaThuoc\\gui_qlnt\\ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\bus_qlnt\\bus_nhacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|solutionrelative:bus_qlnt\\bus_nhacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\dal_qlnt\\dal_ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|solutionrelative:dal_qlnt\\dal_ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\gui_qlnt\\ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\gui_qlnt\\thongkenhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\thongkenhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\gui_qlnt\\thongkeban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|L:\\SQL SEVER\\QuanLyNhaThuoc\\gui_qlnt\\thongkeban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\thongkeban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\gui_qlnt\\thongkenhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|L:\\SQL SEVER\\QuanLyNhaThuoc\\gui_qlnt\\thongkenhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\thongkenhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\gui_qlnt\\thongkeban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\thongkeban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|l:\\sql sever\\quanlynhathuoc\\gui_qlnt\\ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 358,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,38 +86,101 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BUS_NhaCC.cs",
+              "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_NhaCC.cs",
+              "RelativeDocumentMoniker": "BUS_QLNT\\BUS_NhaCC.cs",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_NhaCC.cs",
+              "RelativeToolTip": "BUS_QLNT\\BUS_NhaCC.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:06:30.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NCC.cs [Design]",
+              "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\NCC.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\NCC.cs",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\NCC.cs [Design]",
+              "RelativeToolTip": "GUI_QLNT\\NCC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:01:27.609Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DAL_NCC.cs",
+              "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_NCC.cs",
+              "RelativeDocumentMoniker": "DAL_QLNT\\DAL_NCC.cs",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_NCC.cs",
+              "RelativeToolTip": "DAL_QLNT\\DAL_NCC.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwJMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:54:47.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\NhanVien.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\NhanVien.cs",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\NhanVien.cs",
+              "RelativeToolTip": "GUI_QLNT\\NhanVien.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:47:03.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NhanVien.cs [Design]",
+              "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\NhanVien.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\NhanVien.cs",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\NhanVien.cs [Design]",
+              "RelativeToolTip": "GUI_QLNT\\NhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:46:30.482Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ThongKeNhap.cs",
               "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeNhap.cs",
               "RelativeDocumentMoniker": "GUI_QLNT\\ThongKeNhap.cs",
-              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeNhap.cs*",
-              "RelativeToolTip": "GUI_QLNT\\ThongKeNhap.cs*",
-              "ViewState": "AgIAAIUAAAAAAAAAAADwv6wAAAAJAAAAAAAAAA==",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeNhap.cs",
+              "RelativeToolTip": "GUI_QLNT\\ThongKeNhap.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwJcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T13:20:49.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "NCC.cs",
               "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\NCC.cs",
               "RelativeDocumentMoniker": "GUI_QLNT\\NCC.cs",
               "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\NCC.cs",
               "RelativeToolTip": "GUI_QLNT\\NCC.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAwIwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAkwIkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T13:05:03.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ThongKeBan.cs",
               "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeBan.cs",
               "RelativeDocumentMoniker": "GUI_QLNT\\ThongKeBan.cs",
-              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeBan.cs*",
-              "RelativeToolTip": "GUI_QLNT\\ThongKeBan.cs*",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeBan.cs",
+              "RelativeToolTip": "GUI_QLNT\\ThongKeBan.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAAAlwK8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T13:04:44.775Z",
@@ -105,24 +188,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ThongKeNhap.cs [Design]",
               "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeNhap.cs",
               "RelativeDocumentMoniker": "GUI_QLNT\\ThongKeNhap.cs",
-              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeNhap.cs [Design]*",
-              "RelativeToolTip": "GUI_QLNT\\ThongKeNhap.cs [Design]*",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeNhap.cs [Design]",
+              "RelativeToolTip": "GUI_QLNT\\ThongKeNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:03:45.329Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-21T13:03:45.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ThongKeBan.cs [Design]",
               "DocumentMoniker": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeBan.cs",
               "RelativeDocumentMoniker": "GUI_QLNT\\ThongKeBan.cs",
-              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeBan.cs [Design]*",
-              "RelativeToolTip": "GUI_QLNT\\ThongKeBan.cs [Design]*",
+              "ToolTip": "L:\\SQL SEVER\\QuanLyNhaThuoc\\GUI_QLNT\\ThongKeBan.cs [Design]",
+              "RelativeToolTip": "GUI_QLNT\\ThongKeBan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T13:03:22.173Z",
               "EditorCaption": " [Design]"

@@ -34,6 +34,8 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -56,8 +58,6 @@
             this.colDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colChucVu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colHinhAnh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtPass = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -233,6 +233,8 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(537, 198);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
@@ -253,6 +255,26 @@
             this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 35;
             this.label3.Text = "Họ Tên";
+            // 
+            // txtPass
+            // 
+            this.txtPass.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtPass.Location = new System.Drawing.Point(400, 6);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(134, 20);
+            this.txtPass.TabIndex = 2;
+            this.txtPass.Text = "********";
+            this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label2.Location = new System.Drawing.Point(342, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 29);
+            this.label2.TabIndex = 33;
+            this.label2.Text = "password";
             // 
             // txtUserName
             // 
@@ -457,26 +479,6 @@
             this.colHinhAnh.HeaderText = "Ảnh";
             this.colHinhAnh.Name = "colHinhAnh";
             this.colHinhAnh.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.Location = new System.Drawing.Point(325, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 13);
-            this.label2.TabIndex = 33;
-            this.label2.Text = "password";
-            // 
-            // txtPass
-            // 
-            this.txtPass.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtPass.Location = new System.Drawing.Point(400, 6);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(134, 20);
-            this.txtPass.TabIndex = 2;
-            this.txtPass.Text = "********";
-            this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 
             // NhanVien
             // 

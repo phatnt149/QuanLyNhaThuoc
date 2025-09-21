@@ -28,7 +28,12 @@ namespace BUS_QLNT
         {
             return dalNhaCC.timNhaCCTheoMaNcc(s);
         }
-     
+
+        public DataTable timNhaCCTheoTen(string s)
+        {
+            return dalNhaCC.timNhaCCTheoTen(s);
+        }
+
         public bool themNhaCC(DTO_NCC ncc)
         {
             return dalNhaCC.themNhaCC(ncc);

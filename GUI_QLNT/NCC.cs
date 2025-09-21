@@ -26,7 +26,7 @@ namespace GUI_QLNT
         private void NCC_Load(object sender, EventArgs e)
         {
             dataGridView1.AutoGenerateColumns = false;
-            txtTimKiem.Text = "Nhập id...";
+            txtTimKiem.Text = "Nhập id hoặc tên...";
             txtTimKiem.ForeColor = Color.Gray;
 
             // Mapping cột DataGridView với cột trong SQL
@@ -108,9 +108,23 @@ namespace GUI_QLNT
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            DataGridViewRow row = dataGridView1.CurrentRow;
-            int id = Convert.ToInt32(row.Cells["colMaNcc"].Value);
-            dataGridView1.DataSource = busNCC.timNhaCCTheoMaNcc(id);
+
+            string value = txtTimKiem.Text.Trim();
+
+            if (int.TryParse(value, out int so))
+            {
+                // Nếu là số
+                dataGridView1.DataSource = busNCC.timNhaCCTheoMaNcc(so);
+            }
+            else
+            {
+                // Nếu không phải số
+                dataGridView1.DataSource = busNCC.timNhaCCTheoTen(txtTimKiem.Text);
+                //DataGridViewRow row = dataGridView1.CurrentRow;
+                //string s = row.Cells["colMaNcc"].Value;
+                //dataGridView1.DataSource = busNCC.timNhaCCTheoMaNcc(id);
+
+            }
         }
         
 
@@ -124,7 +138,7 @@ namespace GUI_QLNT
             if (txtTimKiem.Text == "")
             {
                 dataGridView1.DataSource = busNCC.getNhaCC();
-                txtTimKiem.Text = "Nhập id...";
+                txtTimKiem.Text = "Nhập id hoặc tên...";
             }
         }
 
