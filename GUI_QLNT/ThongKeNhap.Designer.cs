@@ -50,6 +50,7 @@ namespace GUI_QLNT
             this.btnExcel = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.btnFill = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -68,6 +69,7 @@ namespace GUI_QLNT
             this.tableLayoutPanel1.Controls.Add(this.btnExcel, 3, 3);
             this.tableLayoutPanel1.Controls.Add(this.dateTimePicker2, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.btnFill, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.button1, 2, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -229,6 +231,17 @@ namespace GUI_QLNT
             this.btnFill.UseVisualStyleBackColor = true;
             this.btnFill.Click += new System.EventHandler(this.btnFill_Click);
             // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button1.Location = new System.Drawing.Point(243, 425);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(73, 22);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Thành tiền";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ThongKeNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -267,5 +280,6 @@ namespace GUI_QLNT
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private DateTimePicker dateTimePicker2;
         private Button btnFill;
+        private Button button1;
     }
 }

@@ -156,6 +156,14 @@ namespace GUI_QLNT
             label2.Text = DataUser.userName;
             label3.Text = DataUser.userName;
 
+            if(DataUser.chucvu != "admin")
+            {
+                groupNhanSu.Visible = false;
+                groupDuocPham.Location = new System.Drawing.Point(10, 10);
+                groupThongKe.Location = new System.Drawing.Point(320, 10);
+
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)

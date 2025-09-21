@@ -136,5 +136,40 @@ namespace GUI_QLNT
                 LoadThongKe();
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataTable dt = (DataTable)dataGridView1.DataSource;
+            DataRow newRow = dt.NewRow(); // Tạo dòng rỗng
+            dt.Rows.Add(newRow);
+
+            int lastRowIndex = dataGridView1.AllowUserToAddRows
+                        ? dataGridView1.Rows.Count - 2
+                        : dataGridView1.Rows.Count - 1;
+
+            DataGridViewRow lastRow = dataGridView1.Rows[lastRowIndex];
+
+            lastRow.Cells["colMota"].Value = "TỔNG THÀNH TIỀN";
+            decimal tongTien = 0m;
+
+
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                if (row.IsNewRow) continue; // bỏ qua dòng trắng
+
+                if (row.Cells["colThanhTien"].Value != null)
+                {
+                    decimal value;
+
+                    // Thử convert sang số, nếu thành công thì cộng dồn
+                    if (decimal.TryParse(row.Cells["colThanhTien"].Value.ToString(), out value))
+                    {
+                        tongTien += value;
+                    }
+                }
+            }
+
+            lastRow.Cells["colThanhTien"].Value = tongTien;
+        }
     }
 }
