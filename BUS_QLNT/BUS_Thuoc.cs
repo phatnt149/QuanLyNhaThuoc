@@ -28,6 +28,11 @@ namespace BUS_QLNT
             return dalThuoc.GetSimple();
         }
 
+        public DataTable GetWithPrice(int maThuoc)
+        {
+            return dalThuoc.GetWithPrice(maThuoc);
+        }
+
         public bool Insert(DTO_Thuoc t)
         {
             return dalThuoc.Insert(t);

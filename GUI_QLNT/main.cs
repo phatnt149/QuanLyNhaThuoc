@@ -41,6 +41,21 @@ namespace GUI_QLNT
 
         }
 
+        private void OpenChildFormBanHang(Form childForm)
+        {
+            // Xóa control cũ trong panel (nếu có)
+            panelBanHang.Controls.Clear();
+
+            childForm.TopLevel = false;   // ⬅️ quan trọng
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+
+            panelBanHang.Controls.Add(childForm);
+            childForm.Show();
+
+        }
+
+
         private void BtnNhanVien_Click(object sender, EventArgs e)
         {
             OpenChildForm(new NhanVien());
@@ -79,7 +94,7 @@ namespace GUI_QLNT
 
         private void BtnBanThuoc_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bán thuốc");
+            OpenChildFormBanHang(new BanHang());
         }
 
         private void BtnThongTinThuoc_Click(object sender, EventArgs e)

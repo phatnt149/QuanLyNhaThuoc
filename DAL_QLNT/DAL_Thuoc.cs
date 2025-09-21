@@ -49,6 +49,23 @@ namespace DAL_QLNT
             }
         }
 
+        public DataTable GetWithPrice(int maThuoc)
+        {
+            string sql = "SELECT maThuoc, tenThuoc, giaBan, donViBan FROM Thuoc WHERE maThuoc = @maThuoc";
+            SqlDataAdapter da = new SqlDataAdapter(sql, _conn);
+            da.SelectCommand.Parameters.AddWithValue("@maThuoc", maThuoc);
+            DataTable dt = new DataTable();
+            try
+            {
+                da.Fill(dt);
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         /// <summary>
         /// Thêm thuốc
         /// </summary>

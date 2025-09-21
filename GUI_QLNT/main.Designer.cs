@@ -77,6 +77,7 @@ namespace GUI_QLNT
             this.btnFacebook = new System.Windows.Forms.Button();
             this.groupHelp = new System.Windows.Forms.GroupBox();
             this.btnHelp = new System.Windows.Forms.Button();
+            this.panelBanHang = new System.Windows.Forms.Panel();
             this.tabControl.SuspendLayout();
             this.tabQuanLy.SuspendLayout();
             this.groupNhanSu.SuspendLayout();
@@ -99,7 +100,7 @@ namespace GUI_QLNT
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(900, 536);
+            this.tabControl.Size = new System.Drawing.Size(784, 486);
             this.tabControl.TabIndex = 0;
             // 
             // tabQuanLy
@@ -110,7 +111,7 @@ namespace GUI_QLNT
             this.tabQuanLy.Controls.Add(this.groupThongKe);
             this.tabQuanLy.Location = new System.Drawing.Point(4, 22);
             this.tabQuanLy.Name = "tabQuanLy";
-            this.tabQuanLy.Size = new System.Drawing.Size(892, 510);
+            this.tabQuanLy.Size = new System.Drawing.Size(776, 460);
             this.tabQuanLy.TabIndex = 0;
             this.tabQuanLy.Text = "Quản lý";
             this.tabQuanLy.UseVisualStyleBackColor = true;
@@ -122,7 +123,7 @@ namespace GUI_QLNT
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMain.Location = new System.Drawing.Point(20, 116);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(850, 386);
+            this.panelMain.Size = new System.Drawing.Size(734, 336);
             this.panelMain.TabIndex = 3;
             // 
             // groupNhanSu
@@ -217,11 +218,12 @@ namespace GUI_QLNT
             // 
             // tabBanHang
             // 
+            this.tabBanHang.Controls.Add(this.panelBanHang);
             this.tabBanHang.Controls.Add(this.groupBanHang);
             this.tabBanHang.Controls.Add(this.groupMoRong);
             this.tabBanHang.Location = new System.Drawing.Point(4, 22);
             this.tabBanHang.Name = "tabBanHang";
-            this.tabBanHang.Size = new System.Drawing.Size(892, 510);
+            this.tabBanHang.Size = new System.Drawing.Size(776, 460);
             this.tabBanHang.TabIndex = 1;
             this.tabBanHang.Text = "Bán hàng";
             this.tabBanHang.UseVisualStyleBackColor = true;
@@ -336,9 +338,19 @@ namespace GUI_QLNT
             this.btnHelp.TabIndex = 0;
             this.btnHelp.Text = "Hướng dẫn";
             // 
+            // panelBanHang
+            // 
+            this.panelBanHang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelBanHang.Location = new System.Drawing.Point(10, 116);
+            this.panelBanHang.Name = "panelBanHang";
+            this.panelBanHang.Size = new System.Drawing.Size(758, 336);
+            this.panelBanHang.TabIndex = 4;
+            // 
             // main
             // 
-            this.ClientSize = new System.Drawing.Size(900, 536);
+            this.ClientSize = new System.Drawing.Size(784, 486);
             this.Controls.Add(this.tabControl);
             this.Name = "main";
             this.Text = "Phần mềm Quản lý Nhà thuốc";
@@ -360,5 +372,6 @@ namespace GUI_QLNT
         }
 
         private Panel panelMain;
+        private Panel panelBanHang;
     }
 }

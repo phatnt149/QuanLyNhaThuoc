@@ -113,6 +113,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Untils\ImageUntils.cs" />
+    <EmbeddedResource Include="BanHang.resx">
+      <DependentUpon>BanHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoaiThuoc.resx">
       <DependentUpon>LoaiThuoc.cs</DependentUpon>
     </EmbeddedResource>
