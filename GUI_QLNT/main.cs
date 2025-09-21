@@ -58,7 +58,8 @@ namespace GUI_QLNT
 
         private void BtnThuoc_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Quản lý thuốc");
+            OpenChildForm(new Thuoc());
+            
         }
 
         private void BtnNhapThuoc_Click(object sender, EventArgs e)

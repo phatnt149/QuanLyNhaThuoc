@@ -221,6 +221,11 @@ namespace GUI_QLNT
             pictureBox1.Image = null;
             txtTimKiem.Text = "";
         }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 

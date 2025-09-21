@@ -46,3 +46,4 @@ D:\Project\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CoreCompileInputs.c
 D:\Project\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.Up2Date
 D:\Project\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.exe
 D:\Project\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.pdb
+D:\Project\QuanLyNhaThuoc\GUI_QLNT\obj\Debug\GUI_QLNT.Thuoc.resources

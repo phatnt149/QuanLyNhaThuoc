@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL_LoaiThuoc.cs" />
     <Compile Include="DAL_MaHoaMD5.cs" />
     <Compile Include="DAL_NCC.cs" />
     <Compile Include="DAL_NhanVien.cs" />
+    <Compile Include="DAL_Thuoc.cs" />
     <Compile Include="DBConnect.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

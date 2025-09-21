@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "D:\\Project\\QuanLyNhaThuoc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|d:\\project\\quanlynhathuoc\\bus_qlnt\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|solutionrelative:bus_qlnt\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|d:\\project\\quanlynhathuoc\\gui_qlnt\\thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|d:\\project\\quanlynhathuoc\\bus_qlnt\\bus_nhacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|solutionrelative:bus_qlnt\\bus_nhacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\gui_qlnt\\thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|d:\\project\\quanlynhathuoc\\gui_qlnt\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|d:\\project\\quanlynhathuoc\\bus_qlnt\\bus_thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|solutionrelative:bus_qlnt\\bus_thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|d:\\project\\quanlynhathuoc\\gui_qlnt\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\bus_qlnt\\bus_loaithuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE20DEDF-B37B-4000-BBA0-6016F4A7329B}|BUS_QLNT\\BUS_QLNT.csproj|solutionrelative:bus_qlnt\\bus_loaithuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\dal_qlnt\\dal_thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|solutionrelative:dal_qlnt\\dal_thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\dal_qlnt\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|solutionrelative:dal_qlnt\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\dal_qlnt\\dal_ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|solutionrelative:dal_qlnt\\dal_ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\gui_qlnt\\ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\ncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\gui_qlnt\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\gui_qlnt\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\gui_qlnt\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\gui_qlnt\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|d:\\project\\quanlynhathuoc\\dal_qlnt\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|solutionrelative:dal_qlnt\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\gui_qlnt\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\dal_qlnt\\dal_loaithuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C62990-91B1-44AA-8C10-2386EA8CF3E8}|DAL_QLNT\\DAL_QLNT.csproj|solutionrelative:dal_qlnt\\dal_loaithuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|D:\\Project\\QuanLyNhaThuoc\\gui_qlnt\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824B7444-E085-43AF-A4FE-6152BC5F3F77}|GUI_QLNT\\GUI_QLNT.csproj|solutionrelative:gui_qlnt\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +70,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 489,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Thuoc.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\Thuoc.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\Thuoc.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\Thuoc.cs [Design]",
+              "RelativeToolTip": "GUI_QLNT\\Thuoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:29:57.018Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Thuoc.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\Thuoc.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\Thuoc.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\Thuoc.cs",
+              "RelativeToolTip": "GUI_QLNT\\Thuoc.cs",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAewKQBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T08:14:05.11Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BUS_Thuoc.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_Thuoc.cs",
+              "RelativeDocumentMoniker": "BUS_QLNT\\BUS_Thuoc.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_Thuoc.cs",
+              "RelativeToolTip": "BUS_QLNT\\BUS_Thuoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:55:46.476Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -46,46 +126,146 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "BUS_LoaiThuoc.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_LoaiThuoc.cs",
+              "RelativeDocumentMoniker": "BUS_QLNT\\BUS_LoaiThuoc.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_LoaiThuoc.cs",
+              "RelativeToolTip": "BUS_QLNT\\BUS_LoaiThuoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T08:07:08.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\NhanVien.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\NhanVien.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\NhanVien.cs [Design]",
+              "RelativeToolTip": "GUI_QLNT\\NhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T05:02:40.224Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\NhanVien.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\NhanVien.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\NhanVien.cs",
+              "RelativeToolTip": "GUI_QLNT\\NhanVien.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAewHMAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:32:27.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAL_Thuoc.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_Thuoc.cs",
+              "RelativeDocumentMoniker": "DAL_QLNT\\DAL_Thuoc.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_Thuoc.cs",
+              "RelativeToolTip": "DAL_QLNT\\DAL_Thuoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:26:14.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DAL_LoaiThuoc.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_LoaiThuoc.cs",
+              "RelativeDocumentMoniker": "DAL_QLNT\\DAL_LoaiThuoc.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_LoaiThuoc.cs",
+              "RelativeToolTip": "DAL_QLNT\\DAL_LoaiThuoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T08:08:07.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "main.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\main.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\main.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\main.cs",
+              "RelativeToolTip": "GUI_QLNT\\main.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:14:30.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DAL_NhanVien.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_NhanVien.cs",
+              "RelativeDocumentMoniker": "DAL_QLNT\\DAL_NhanVien.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_NhanVien.cs",
+              "RelativeToolTip": "DAL_QLNT\\DAL_NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:17:21.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "main.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\main.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\main.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\main.cs [Design]",
+              "RelativeToolTip": "GUI_QLNT\\main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:14:06.324Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NCC.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\NCC.cs",
+              "RelativeDocumentMoniker": "GUI_QLNT\\NCC.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\NCC.cs [Design]",
+              "RelativeToolTip": "GUI_QLNT\\NCC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T04:14:05.812Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DAL_NCC.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_NCC.cs",
+              "RelativeDocumentMoniker": "DAL_QLNT\\DAL_NCC.cs",
+              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DAL_NCC.cs",
+              "RelativeToolTip": "DAL_QLNT\\DAL_NCC.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T03:38:18.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\Login.cs",
               "RelativeDocumentMoniker": "GUI_QLNT\\Login.cs",
               "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\Login.cs",
               "RelativeToolTip": "GUI_QLNT\\Login.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T03:03:57.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BUS_NhaCC.cs",
-              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_NhaCC.cs",
-              "RelativeDocumentMoniker": "BUS_QLNT\\BUS_NhaCC.cs",
-              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_NhaCC.cs",
-              "RelativeToolTip": "BUS_QLNT\\BUS_NhaCC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T03:06:37.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BUS_NhanVien.cs",
-              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_NhanVien.cs",
-              "RelativeDocumentMoniker": "BUS_QLNT\\BUS_NhanVien.cs",
-              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\BUS_QLNT\\BUS_NhanVien.cs",
-              "RelativeToolTip": "BUS_QLNT\\BUS_NhanVien.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T03:06:34.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\GUI_QLNT\\Login.cs",
               "RelativeDocumentMoniker": "GUI_QLNT\\Login.cs",
@@ -94,19 +274,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T03:03:54.436Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DBConnect.cs",
-              "DocumentMoniker": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DBConnect.cs",
-              "RelativeDocumentMoniker": "DAL_QLNT\\DBConnect.cs",
-              "ToolTip": "D:\\Project\\QuanLyNhaThuoc\\DAL_QLNT\\DBConnect.cs",
-              "RelativeToolTip": "DAL_QLNT\\DBConnect.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T02:58:01.454Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -114,6 +281,10 @@
           "DockedWidth": 212,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
