@@ -221,13 +221,13 @@ namespace GUI_QLNT
                 return;
             }
 
-            int maNhapHang = Convert.ToInt32(dataGridView_DonHang.SelectedRows[0].Cells["maThuoc"].Value.ToString());
+            int maNhapHang = Convert.ToInt32(dataGridView_DonHang.SelectedRows[0].Cells["maNhapHang"].Value.ToString());
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xoá đơn nhập hàng này?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 try
                 {
-                    if (busThuoc.Delete(maNhapHang))
+                    if (busNhapHang.Delete(maNhapHang, Convert.ToInt32(dataGridView_DonHang.SelectedRows[0].Cells["maThuoc"].Value.ToString())))
                     {
                         MessageBox.Show("Xoá thuốc thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         LoadNhapHang();

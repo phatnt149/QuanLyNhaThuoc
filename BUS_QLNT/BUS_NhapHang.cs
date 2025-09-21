@@ -26,9 +26,9 @@ namespace BUS_QLNT
             return dalNhapHang.Update(nh);
         }
 
-        public bool Delete(int maNhapHang)
+        public bool Delete(int maNhapHang, int maThuoc)
         {
-            return dalNhapHang.Delete(maNhapHang);
+            return dalNhapHang.Delete(maNhapHang, maThuoc);
         }
     }
 }

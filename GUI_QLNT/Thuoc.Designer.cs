@@ -47,7 +47,6 @@
             this.buttonHinhAnh_Thuoc = new System.Windows.Forms.Button();
             this.dateTimeHanSuDung_Thuoc = new System.Windows.Forms.DateTimePicker();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBoxThuoc_Thuoc = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.buttonDelete_Thuoc = new System.Windows.Forms.Button();
             this.buttonUpdate_Thuoc = new System.Windows.Forms.Button();
@@ -94,15 +93,16 @@
             this.textBoxTimThuoc_Thuoc = new System.Windows.Forms.TextBox();
             this.buttonTimKiem_Thuoc = new System.Windows.Forms.Button();
             this.buttonHuyTimKiem_Thuoc = new System.Windows.Forms.Button();
+            this.pictureBoxThuoc_Thuoc = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxThuoc_Thuoc)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Thuoc)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxThuoc_Thuoc)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -110,7 +110,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.00001F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 244F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 245F));
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel5, 0, 0);
@@ -155,7 +155,7 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(301, 228);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(300, 228);
             this.tableLayoutPanel6.TabIndex = 3;
             // 
             // textBoxSoLuongTheoDvBan_Thuoc
@@ -163,7 +163,7 @@
             this.textBoxSoLuongTheoDvBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxSoLuongTheoDvBan_Thuoc.Location = new System.Drawing.Point(100, 199);
             this.textBoxSoLuongTheoDvBan_Thuoc.Name = "textBoxSoLuongTheoDvBan_Thuoc";
-            this.textBoxSoLuongTheoDvBan_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxSoLuongTheoDvBan_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxSoLuongTheoDvBan_Thuoc.TabIndex = 23;
             // 
             // textBoxSoLuong_Thuoc
@@ -172,7 +172,7 @@
             this.textBoxSoLuong_Thuoc.Enabled = false;
             this.textBoxSoLuong_Thuoc.Location = new System.Drawing.Point(100, 171);
             this.textBoxSoLuong_Thuoc.Name = "textBoxSoLuong_Thuoc";
-            this.textBoxSoLuong_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxSoLuong_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxSoLuong_Thuoc.TabIndex = 22;
             // 
             // textBoxGiaTriQuyDoi_Thuoc
@@ -180,7 +180,7 @@
             this.textBoxGiaTriQuyDoi_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxGiaTriQuyDoi_Thuoc.Location = new System.Drawing.Point(100, 143);
             this.textBoxGiaTriQuyDoi_Thuoc.Name = "textBoxGiaTriQuyDoi_Thuoc";
-            this.textBoxGiaTriQuyDoi_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxGiaTriQuyDoi_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxGiaTriQuyDoi_Thuoc.TabIndex = 21;
             // 
             // textBoxGiaBanTheoDonViBan_Thuoc
@@ -188,7 +188,7 @@
             this.textBoxGiaBanTheoDonViBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxGiaBanTheoDonViBan_Thuoc.Location = new System.Drawing.Point(100, 115);
             this.textBoxGiaBanTheoDonViBan_Thuoc.Name = "textBoxGiaBanTheoDonViBan_Thuoc";
-            this.textBoxGiaBanTheoDonViBan_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxGiaBanTheoDonViBan_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxGiaBanTheoDonViBan_Thuoc.TabIndex = 20;
             // 
             // textBoxDonViBan_Thuoc
@@ -196,7 +196,7 @@
             this.textBoxDonViBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxDonViBan_Thuoc.Location = new System.Drawing.Point(100, 87);
             this.textBoxDonViBan_Thuoc.Name = "textBoxDonViBan_Thuoc";
-            this.textBoxDonViBan_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxDonViBan_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxDonViBan_Thuoc.TabIndex = 19;
             // 
             // textBoxMoTa_Thuoc
@@ -204,7 +204,7 @@
             this.textBoxMoTa_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxMoTa_Thuoc.Location = new System.Drawing.Point(100, 3);
             this.textBoxMoTa_Thuoc.Name = "textBoxMoTa_Thuoc";
-            this.textBoxMoTa_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxMoTa_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxMoTa_Thuoc.TabIndex = 17;
             // 
             // labelSoLuongTheoDonViBan_Thuoc
@@ -300,7 +300,7 @@
             this.buttonHinhAnh_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonHinhAnh_Thuoc.Location = new System.Drawing.Point(100, 31);
             this.buttonHinhAnh_Thuoc.Name = "buttonHinhAnh_Thuoc";
-            this.buttonHinhAnh_Thuoc.Size = new System.Drawing.Size(198, 22);
+            this.buttonHinhAnh_Thuoc.Size = new System.Drawing.Size(197, 22);
             this.buttonHinhAnh_Thuoc.TabIndex = 16;
             this.buttonHinhAnh_Thuoc.Text = "Tải ảnh lên";
             this.buttonHinhAnh_Thuoc.UseVisualStyleBackColor = true;
@@ -311,7 +311,7 @@
             this.dateTimeHanSuDung_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeHanSuDung_Thuoc.Location = new System.Drawing.Point(100, 59);
             this.dateTimeHanSuDung_Thuoc.Name = "dateTimeHanSuDung_Thuoc";
-            this.dateTimeHanSuDung_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.dateTimeHanSuDung_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.dateTimeHanSuDung_Thuoc.TabIndex = 24;
             // 
             // tableLayoutPanel2
@@ -321,23 +321,13 @@
             this.tableLayoutPanel2.Controls.Add(this.pictureBoxThuoc_Thuoc, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(616, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(615, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.95699F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.04301F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(239, 228);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(240, 228);
             this.tableLayoutPanel2.TabIndex = 1;
-            // 
-            // pictureBoxThuoc_Thuoc
-            // 
-            this.pictureBoxThuoc_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxThuoc_Thuoc.Location = new System.Drawing.Point(3, 3);
-            this.pictureBoxThuoc_Thuoc.Name = "pictureBoxThuoc_Thuoc";
-            this.pictureBoxThuoc_Thuoc.Size = new System.Drawing.Size(233, 171);
-            this.pictureBoxThuoc_Thuoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxThuoc_Thuoc.TabIndex = 0;
-            this.pictureBoxThuoc_Thuoc.TabStop = false;
             // 
             // tableLayoutPanel3
             // 
@@ -353,15 +343,15 @@
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(233, 45);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(234, 45);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
             // buttonDelete_Thuoc
             // 
             this.buttonDelete_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonDelete_Thuoc.Location = new System.Drawing.Point(157, 3);
+            this.buttonDelete_Thuoc.Location = new System.Drawing.Point(159, 3);
             this.buttonDelete_Thuoc.Name = "buttonDelete_Thuoc";
-            this.buttonDelete_Thuoc.Size = new System.Drawing.Size(73, 39);
+            this.buttonDelete_Thuoc.Size = new System.Drawing.Size(72, 39);
             this.buttonDelete_Thuoc.TabIndex = 2;
             this.buttonDelete_Thuoc.Text = "Xoá";
             this.buttonDelete_Thuoc.UseVisualStyleBackColor = true;
@@ -371,9 +361,9 @@
             // buttonUpdate_Thuoc
             // 
             this.buttonUpdate_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonUpdate_Thuoc.Location = new System.Drawing.Point(80, 3);
+            this.buttonUpdate_Thuoc.Location = new System.Drawing.Point(81, 3);
             this.buttonUpdate_Thuoc.Name = "buttonUpdate_Thuoc";
-            this.buttonUpdate_Thuoc.Size = new System.Drawing.Size(71, 39);
+            this.buttonUpdate_Thuoc.Size = new System.Drawing.Size(72, 39);
             this.buttonUpdate_Thuoc.TabIndex = 1;
             this.buttonUpdate_Thuoc.Text = "Sửa";
             this.buttonUpdate_Thuoc.UseVisualStyleBackColor = true;
@@ -385,7 +375,7 @@
             this.buttonAdd_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonAdd_Thuoc.Location = new System.Drawing.Point(3, 3);
             this.buttonAdd_Thuoc.Name = "buttonAdd_Thuoc";
-            this.buttonAdd_Thuoc.Size = new System.Drawing.Size(71, 39);
+            this.buttonAdd_Thuoc.Size = new System.Drawing.Size(72, 39);
             this.buttonAdd_Thuoc.TabIndex = 0;
             this.buttonAdd_Thuoc.Text = "Thêm";
             this.buttonAdd_Thuoc.UseVisualStyleBackColor = true;
@@ -826,6 +816,16 @@
             this.buttonHuyTimKiem_Thuoc.UseVisualStyleBackColor = true;
             this.buttonHuyTimKiem_Thuoc.Click += new System.EventHandler(this.buttonHuyTimKiem_Thuoc_Click);
             // 
+            // pictureBoxThuoc_Thuoc
+            // 
+            this.pictureBoxThuoc_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxThuoc_Thuoc.Location = new System.Drawing.Point(3, 3);
+            this.pictureBoxThuoc_Thuoc.Name = "pictureBoxThuoc_Thuoc";
+            this.pictureBoxThuoc_Thuoc.Size = new System.Drawing.Size(234, 171);
+            this.pictureBoxThuoc_Thuoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxThuoc_Thuoc.TabIndex = 0;
+            this.pictureBoxThuoc_Thuoc.TabStop = false;
+            // 
             // Thuoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -840,7 +840,6 @@
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxThuoc_Thuoc)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
@@ -848,6 +847,7 @@
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxThuoc_Thuoc)).EndInit();
             this.ResumeLayout(false);
 
         }
