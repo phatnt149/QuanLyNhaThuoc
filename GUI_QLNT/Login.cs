@@ -33,15 +33,21 @@ namespace GUI_QLNT
                     MessageBox.Show("Mật Khẩu Trống");
                     return;
                 }
-
                 DTO_NhanVien nv = busNV.DangNhap(username, password);
-
-
-                // TODO: Lưu thông tin nhân viên đăng nhập
-                main m = new main();
-                m.Show();
-                this.Hide();
+                if (nv != null)
+                {
+                    DataUser.userName = nv.UserName;
+                    DataUser.chucvu = nv.ChucVu;
+                    main m = new main();
+                    m.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Đăng Nhập Thất Bại");
+                }
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);

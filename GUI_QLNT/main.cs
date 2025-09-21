@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI_QLNT;
+using System;
 using System.Windows.Forms;
 
 namespace GUI_QLNT
@@ -24,7 +25,8 @@ namespace GUI_QLNT
             btnDangXuat.Click += BtnDangXuat_Click;
             btnWeb.Click += BtnWeb_Click;
             btnFacebook.Click += BtnFacebook_Click;
-            btnHelp.Click += BtnHelp_Click;
+
+            username.Visible = false;
         }
 
         private void OpenChildForm(Form childForm)
@@ -37,6 +39,19 @@ namespace GUI_QLNT
             childForm.Dock = DockStyle.Fill;
 
             panelMain.Controls.Add(childForm);
+            childForm.Show();
+
+        }
+        private void OpenChildForm2(Form childForm)
+        {
+            // Xóa control cũ trong panel (nếu có)
+            panelBanHang.Controls.Clear();
+
+            childForm.TopLevel = false;   // ⬅️ quan trọng
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+
+            panelBanHang.Controls.Add(childForm);
             childForm.Show();
 
         }
@@ -84,12 +99,12 @@ namespace GUI_QLNT
 
         private void BtnTKNhap_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thống kê nhập hàng");
+            OpenChildForm(new ThongKeNhap());
         }
 
         private void BtnTKBan_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thống kê bán hàng");
+            OpenChildForm(new ThongKeBan());
         }
 
         private void BtnBanThuoc_Click(object sender, EventArgs e)
@@ -104,22 +119,41 @@ namespace GUI_QLNT
 
         private void BtnTaiKhoan_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Quản lý tài khoản");
+            OpenChildForm2(new ThongTinNhanVien());
         }
 
         private void BtnDangXuat_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Đăng xuất");
+            DialogResult result = MessageBox.Show(
+            "Bạn có chắc chắn muốn đăng xuất không?",
+            "Xác nhận đăng xuất",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Question
+    );
+
+            if (result == DialogResult.Yes)
+            {
+                // Ẩn form hiện tại
+                this.Hide();
+
+                // Quay lại màn hình đăng nhập
+                login lg = new login();
+                lg.ShowDialog();
+
+                // Đóng form sau khi logout
+                this.Close();
+            }
+            ;
         }
 
         private void BtnWeb_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Mở website");
+            System.Diagnostics.Process.Start("https://ou.edu.vn/");
         }
 
         private void BtnFacebook_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Mở Facebook");
+            System.Diagnostics.Process.Start("https://www.facebook.com/profile.php?id=100066781932277");
         }
 
         private void BtnHelp_Click(object sender, EventArgs e)
@@ -132,6 +166,32 @@ namespace GUI_QLNT
             
         }
 
-       
+        private void main_Load(object sender, EventArgs e)
+        {
+            label1.Text = DataUser.userName;
+            label2.Text = DataUser.userName;
+            label3.Text = DataUser.userName;
+
+            if(DataUser.chucvu != "admin")
+            {
+                groupNhanSu.Visible = false;
+                groupDuocPham.Location = new System.Drawing.Point(10, 10);
+                groupThongKe.Location = new System.Drawing.Point(320, 10);
+
+            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.ProcessStartInfo st = new System.Diagnostics.ProcessStartInfo();
+            st.FileName = "WINWORD.EXE";
+            System.Diagnostics.Process.Start(st);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:\\Windows\\System32\\calc.exe");
+        }
     }
 }

@@ -8,6 +8,7 @@
 
 # Build results
 
+bin/
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -151,3 +152,21 @@ _NCrunch*
 /.vs/QuanLyNhaThuoc/v17/.suo
 /.vs/QuanLyNhaThuoc/v17/DocumentLayout.backup.json
 /.vs/QuanLyNhaThuoc/v17/DocumentLayout.json
+/GUI_QLNT/obj/Debug/GUI_QLNT.csproj.AssemblyReference.cache
+/GUI_QLNT/obj/Debug/GUI_QLNT.csproj.CoreCompileInputs.cache
+/GUI_QLNT/obj/Debug/GUI_QLNT.csproj.FileListAbsolute.txt
+/GUI_QLNT/obj/Debug/GUI_QLNT.csproj.GenerateResource.cache
+/GUI_QLNT/obj/Debug/GUI_QLNT.exe
+/GUI_QLNT/obj/Debug/GUI_QLNT.pdb
+/.vs/QuanLyNhaThuoc/v17/.suo
+/.vs/QuanLyNhaThuoc/v17/DocumentLayout.backup.json
+/.vs/QuanLyNhaThuoc/v17/DocumentLayout.json
+/BUS_QLNT/bin/Debug/DAL_QLNT.exe
+/BUS_QLNT/bin/Debug/DAL_QLNT.pdb
+/BUS_QLNT/obj/Debug/BUS_QLNT.csproj.AssemblyReference.cache
+/BUS_QLNT/obj/Debug/BUS_QLNT.csproj.CoreCompileInputs.cache
+/DAL_QLNT/bin/Debug/DAL_QLNT.exe
+/DAL_QLNT/bin/Debug/DAL_QLNT.pdb
+/DAL_QLNT/obj/Debug/DAL_QLNT.csproj.CoreCompileInputs.cache
+/DAL_QLNT/obj/Debug/DAL_QLNT.exe
+/DAL_QLNT/obj/Debug/DAL_QLNT.pdb

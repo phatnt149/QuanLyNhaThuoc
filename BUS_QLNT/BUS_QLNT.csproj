@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS_ThongKeBan.cs" />
+    <Compile Include="BUS_ThongKeNhap.cs" />
     <Compile Include="BUS_LoaiThuoc.cs" />
     <Compile Include="BUS_NhaCC.cs" />
     <Compile Include="BUS_NhanVien.cs" />

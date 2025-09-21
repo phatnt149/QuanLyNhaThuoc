@@ -83,7 +83,6 @@
             this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
             this.thêmToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.thêmToolStripMenuItem.Text = "Thêm";
-            this.thêmToolStripMenuItem.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
             // 
             // sửaToolStripMenuItem
             // 
@@ -234,6 +233,8 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(537, 198);
             this.tableLayoutPanel2.TabIndex = 0;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
@@ -263,15 +264,16 @@
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(134, 20);
             this.txtPass.TabIndex = 2;
+            this.txtPass.Text = "********";
             this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.Location = new System.Drawing.Point(325, 16);
+            this.label2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label2.Location = new System.Drawing.Point(342, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 13);
+            this.label2.Size = new System.Drawing.Size(52, 29);
             this.label2.TabIndex = 33;
             this.label2.Text = "password";
             // 
@@ -515,8 +517,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtHoTen;
         private System.Windows.Forms.Label label4;
@@ -543,5 +543,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colChucVu;
         private System.Windows.Forms.DataGridViewTextBoxColumn colHinhAnh;
         private System.Windows.Forms.Button btnReload;
+        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.Label label2;
     }
 }

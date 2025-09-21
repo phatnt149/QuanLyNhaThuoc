@@ -40,6 +40,7 @@ namespace GUI_QLNT
         private GroupBox groupHelp;
         private Button btnHelp;
 
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -53,6 +54,7 @@ namespace GUI_QLNT
         {
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabQuanLy = new System.Windows.Forms.TabPage();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelMain = new System.Windows.Forms.Panel();
             this.groupNhanSu = new System.Windows.Forms.GroupBox();
             this.btnNhanVien = new System.Windows.Forms.Button();
@@ -65,6 +67,12 @@ namespace GUI_QLNT
             this.btnTKNhap = new System.Windows.Forms.Button();
             this.btnTKBan = new System.Windows.Forms.Button();
             this.tabBanHang = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.username = new System.Windows.Forms.Label();
+            this.panelBanHang = new System.Windows.Forms.Panel();
             this.groupBanHang = new System.Windows.Forms.GroupBox();
             this.btnBanThuoc = new System.Windows.Forms.Button();
             this.btnThongTinThuoc = new System.Windows.Forms.Button();
@@ -72,18 +80,19 @@ namespace GUI_QLNT
             this.btnTaiKhoan = new System.Windows.Forms.Button();
             this.btnDangXuat = new System.Windows.Forms.Button();
             this.tabTroGiup = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupLienHe = new System.Windows.Forms.GroupBox();
             this.btnWeb = new System.Windows.Forms.Button();
             this.btnFacebook = new System.Windows.Forms.Button();
             this.groupHelp = new System.Windows.Forms.GroupBox();
             this.btnHelp = new System.Windows.Forms.Button();
-            this.panelBanHang = new System.Windows.Forms.Panel();
             this.tabControl.SuspendLayout();
             this.tabQuanLy.SuspendLayout();
             this.groupNhanSu.SuspendLayout();
             this.groupDuocPham.SuspendLayout();
             this.groupThongKe.SuspendLayout();
             this.tabBanHang.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.groupBanHang.SuspendLayout();
             this.groupMoRong.SuspendLayout();
             this.tabTroGiup.SuspendLayout();
@@ -100,21 +109,34 @@ namespace GUI_QLNT
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(784, 486);
+            this.tabControl.Size = new System.Drawing.Size(832, 498);
             this.tabControl.TabIndex = 0;
             // 
             // tabQuanLy
             // 
+            this.tabQuanLy.Controls.Add(this.label1);
             this.tabQuanLy.Controls.Add(this.panelMain);
             this.tabQuanLy.Controls.Add(this.groupNhanSu);
             this.tabQuanLy.Controls.Add(this.groupDuocPham);
             this.tabQuanLy.Controls.Add(this.groupThongKe);
             this.tabQuanLy.Location = new System.Drawing.Point(4, 22);
             this.tabQuanLy.Name = "tabQuanLy";
-            this.tabQuanLy.Size = new System.Drawing.Size(776, 460);
+            this.tabQuanLy.Size = new System.Drawing.Size(824, 472);
             this.tabQuanLy.TabIndex = 0;
             this.tabQuanLy.Text = "Quản lý";
             this.tabQuanLy.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(748, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(76, 25);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // panelMain
             // 
@@ -123,7 +145,7 @@ namespace GUI_QLNT
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMain.Location = new System.Drawing.Point(20, 116);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(734, 336);
+            this.panelMain.Size = new System.Drawing.Size(796, 348);
             this.panelMain.TabIndex = 3;
             // 
             // groupNhanSu
@@ -218,15 +240,78 @@ namespace GUI_QLNT
             // 
             // tabBanHang
             // 
+            this.tabBanHang.Controls.Add(this.groupBox1);
+            this.tabBanHang.Controls.Add(this.label2);
+            this.tabBanHang.Controls.Add(this.username);
             this.tabBanHang.Controls.Add(this.panelBanHang);
             this.tabBanHang.Controls.Add(this.groupBanHang);
             this.tabBanHang.Controls.Add(this.groupMoRong);
             this.tabBanHang.Location = new System.Drawing.Point(4, 22);
             this.tabBanHang.Name = "tabBanHang";
-            this.tabBanHang.Size = new System.Drawing.Size(776, 460);
+            this.tabBanHang.Size = new System.Drawing.Size(824, 472);
             this.tabBanHang.TabIndex = 1;
             this.tabBanHang.Text = "Bán hàng";
             this.tabBanHang.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Location = new System.Drawing.Point(430, 10);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Công cụ";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(10, 20);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 70);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Word";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(100, 20);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 70);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Máy tính";
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(748, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 25);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "label2";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // username
+            // 
+            this.username.AutoSize = true;
+            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username.Location = new System.Drawing.Point(775, 5);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(0, 29);
+            this.username.TabIndex = 5;
+            // 
+            // panelBanHang
+            // 
+            this.panelBanHang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelBanHang.Location = new System.Drawing.Point(20, 116);
+            this.panelBanHang.Name = "panelBanHang";
+            this.panelBanHang.Size = new System.Drawing.Size(796, 348);
+            this.panelBanHang.TabIndex = 4;
             // 
             // groupBanHang
             // 
@@ -253,7 +338,7 @@ namespace GUI_QLNT
             this.btnThongTinThuoc.Name = "btnThongTinThuoc";
             this.btnThongTinThuoc.Size = new System.Drawing.Size(90, 70);
             this.btnThongTinThuoc.TabIndex = 1;
-            this.btnThongTinThuoc.Text = "Thông tin";
+            this.btnThongTinThuoc.Text = "Thông tin thuốc";
             // 
             // groupMoRong
             // 
@@ -284,14 +369,26 @@ namespace GUI_QLNT
             // 
             // tabTroGiup
             // 
+            this.tabTroGiup.Controls.Add(this.label3);
             this.tabTroGiup.Controls.Add(this.groupLienHe);
-            this.tabTroGiup.Controls.Add(this.groupHelp);
             this.tabTroGiup.Location = new System.Drawing.Point(4, 22);
             this.tabTroGiup.Name = "tabTroGiup";
-            this.tabTroGiup.Size = new System.Drawing.Size(892, 510);
+            this.tabTroGiup.Size = new System.Drawing.Size(776, 460);
             this.tabTroGiup.TabIndex = 2;
-            this.tabTroGiup.Text = "Trợ giúp & Liên hệ";
+            this.tabTroGiup.Text = "Liên hệ";
             this.tabTroGiup.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(700, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 25);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "label3";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // groupLienHe
             // 
@@ -338,33 +435,28 @@ namespace GUI_QLNT
             this.btnHelp.TabIndex = 0;
             this.btnHelp.Text = "Hướng dẫn";
             // 
-            // panelBanHang
-            // 
-            this.panelBanHang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelBanHang.Location = new System.Drawing.Point(10, 116);
-            this.panelBanHang.Name = "panelBanHang";
-            this.panelBanHang.Size = new System.Drawing.Size(758, 336);
-            this.panelBanHang.TabIndex = 4;
-            // 
             // main
             // 
-            this.ClientSize = new System.Drawing.Size(784, 486);
+            this.ClientSize = new System.Drawing.Size(832, 498);
             this.Controls.Add(this.tabControl);
             this.Name = "main";
             this.Text = "Phần mềm Quản lý Nhà thuốc";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MaximumSizeChanged += new System.EventHandler(this.main_MaximumSizeChanged);
+            this.Load += new System.EventHandler(this.main_Load);
             this.tabControl.ResumeLayout(false);
             this.tabQuanLy.ResumeLayout(false);
+            this.tabQuanLy.PerformLayout();
             this.groupNhanSu.ResumeLayout(false);
             this.groupDuocPham.ResumeLayout(false);
             this.groupThongKe.ResumeLayout(false);
             this.tabBanHang.ResumeLayout(false);
+            this.tabBanHang.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.groupBanHang.ResumeLayout(false);
             this.groupMoRong.ResumeLayout(false);
             this.tabTroGiup.ResumeLayout(false);
+            this.tabTroGiup.PerformLayout();
             this.groupLienHe.ResumeLayout(false);
             this.groupHelp.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -373,5 +465,12 @@ namespace GUI_QLNT
 
         private Panel panelMain;
         private Panel panelBanHang;
+        private Label username;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private GroupBox groupBox1;
+        private Button button1;
+        private Button button2;
     }
 }
