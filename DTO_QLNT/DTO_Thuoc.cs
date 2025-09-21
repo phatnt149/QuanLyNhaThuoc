@@ -24,6 +24,11 @@ namespace DTO_QLNT
 
         public DTO_Thuoc() { }
 
+        public DTO_Thuoc(int maThuoc, string tenThuoc) {
+            MaThuoc = maThuoc;
+            TenThuoc = tenThuoc;
+        }
+
         public DTO_Thuoc(
             int maThuoc,
             int maLt,

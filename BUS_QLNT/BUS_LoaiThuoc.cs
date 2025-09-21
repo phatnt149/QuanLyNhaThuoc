@@ -20,5 +20,25 @@ namespace BUS_QLNT
         {
             return dalLoaiThuoc.Get(id);
         }
+        
+        public System.Data.DataTable Get(string keyword)
+        {
+            return dalLoaiThuoc.Get(keyword);
+        }
+
+        public bool Insert(string tenLt, string moTa)
+        {
+            return dalLoaiThuoc.Insert(tenLt, moTa);
+        }
+
+        public bool Update(int maLt, string tenLt, string moTa)
+        {
+            return dalLoaiThuoc.Update(maLt, tenLt, moTa);
+        }
+
+        public bool Delete(int maLt)
+        {
+            return dalLoaiThuoc.Delete(maLt);
+        }
     }
 }

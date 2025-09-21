@@ -31,6 +31,22 @@ namespace DAL_QLNT
             return dtNhanvien;
         }
 
+        public DataTable GetSimple()
+        {
+            string sql = "SELECT userName, hoTen FROM NHANVIEN";
+            SqlDataAdapter da = new SqlDataAdapter(sql, _conn);
+            DataTable dt = new DataTable();
+            try
+            {
+                da.Fill(dt);
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public bool themNhanVien(DTO_NhanVien nv)
         {
             try

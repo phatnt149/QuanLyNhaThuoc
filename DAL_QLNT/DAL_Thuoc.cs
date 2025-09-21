@@ -33,6 +33,22 @@ namespace DAL_QLNT
             return dt;
         }
 
+        public DataTable GetSimple()
+        {
+            string sql = "SELECT maThuoc, tenThuoc FROM Thuoc";
+            SqlDataAdapter da = new SqlDataAdapter(sql, _conn);
+            DataTable dt = new DataTable();
+            try
+            {
+                da.Fill(dt);
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         /// <summary>
         /// Thêm thuốc
         /// </summary>

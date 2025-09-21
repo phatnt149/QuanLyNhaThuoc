@@ -45,6 +45,7 @@
             this.labelHinhAnh_Text = new System.Windows.Forms.Label();
             this.labelMoTa_Thuoc = new System.Windows.Forms.Label();
             this.buttonHinhAnh_Thuoc = new System.Windows.Forms.Button();
+            this.dateTimeHanSuDung_Thuoc = new System.Windows.Forms.DateTimePicker();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBoxThuoc_Thuoc = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -93,7 +94,6 @@
             this.textBoxTimThuoc_Thuoc = new System.Windows.Forms.TextBox();
             this.buttonTimKiem_Thuoc = new System.Windows.Forms.Button();
             this.buttonHuyTimKiem_Thuoc = new System.Windows.Forms.Button();
-            this.dateTimeHanSuDung_Thuoc = new System.Windows.Forms.DateTimePicker();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -110,7 +110,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.00001F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 242F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 244F));
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel5, 0, 0);
@@ -144,7 +144,7 @@
             this.tableLayoutPanel6.Controls.Add(this.buttonHinhAnh_Thuoc, 1, 1);
             this.tableLayoutPanel6.Controls.Add(this.dateTimeHanSuDung_Thuoc, 1, 2);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(310, 3);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(309, 3);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 8;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -155,13 +155,13 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(302, 228);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(301, 228);
             this.tableLayoutPanel6.TabIndex = 3;
             // 
             // textBoxSoLuongTheoDvBan_Thuoc
             // 
             this.textBoxSoLuongTheoDvBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxSoLuongTheoDvBan_Thuoc.Location = new System.Drawing.Point(101, 199);
+            this.textBoxSoLuongTheoDvBan_Thuoc.Location = new System.Drawing.Point(100, 199);
             this.textBoxSoLuongTheoDvBan_Thuoc.Name = "textBoxSoLuongTheoDvBan_Thuoc";
             this.textBoxSoLuongTheoDvBan_Thuoc.Size = new System.Drawing.Size(198, 20);
             this.textBoxSoLuongTheoDvBan_Thuoc.TabIndex = 23;
@@ -170,7 +170,7 @@
             // 
             this.textBoxSoLuong_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxSoLuong_Thuoc.Enabled = false;
-            this.textBoxSoLuong_Thuoc.Location = new System.Drawing.Point(101, 171);
+            this.textBoxSoLuong_Thuoc.Location = new System.Drawing.Point(100, 171);
             this.textBoxSoLuong_Thuoc.Name = "textBoxSoLuong_Thuoc";
             this.textBoxSoLuong_Thuoc.Size = new System.Drawing.Size(198, 20);
             this.textBoxSoLuong_Thuoc.TabIndex = 22;
@@ -178,7 +178,7 @@
             // textBoxGiaTriQuyDoi_Thuoc
             // 
             this.textBoxGiaTriQuyDoi_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxGiaTriQuyDoi_Thuoc.Location = new System.Drawing.Point(101, 143);
+            this.textBoxGiaTriQuyDoi_Thuoc.Location = new System.Drawing.Point(100, 143);
             this.textBoxGiaTriQuyDoi_Thuoc.Name = "textBoxGiaTriQuyDoi_Thuoc";
             this.textBoxGiaTriQuyDoi_Thuoc.Size = new System.Drawing.Size(198, 20);
             this.textBoxGiaTriQuyDoi_Thuoc.TabIndex = 21;
@@ -186,7 +186,7 @@
             // textBoxGiaBanTheoDonViBan_Thuoc
             // 
             this.textBoxGiaBanTheoDonViBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxGiaBanTheoDonViBan_Thuoc.Location = new System.Drawing.Point(101, 115);
+            this.textBoxGiaBanTheoDonViBan_Thuoc.Location = new System.Drawing.Point(100, 115);
             this.textBoxGiaBanTheoDonViBan_Thuoc.Name = "textBoxGiaBanTheoDonViBan_Thuoc";
             this.textBoxGiaBanTheoDonViBan_Thuoc.Size = new System.Drawing.Size(198, 20);
             this.textBoxGiaBanTheoDonViBan_Thuoc.TabIndex = 20;
@@ -194,7 +194,7 @@
             // textBoxDonViBan_Thuoc
             // 
             this.textBoxDonViBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxDonViBan_Thuoc.Location = new System.Drawing.Point(101, 87);
+            this.textBoxDonViBan_Thuoc.Location = new System.Drawing.Point(100, 87);
             this.textBoxDonViBan_Thuoc.Name = "textBoxDonViBan_Thuoc";
             this.textBoxDonViBan_Thuoc.Size = new System.Drawing.Size(198, 20);
             this.textBoxDonViBan_Thuoc.TabIndex = 19;
@@ -202,7 +202,7 @@
             // textBoxMoTa_Thuoc
             // 
             this.textBoxMoTa_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxMoTa_Thuoc.Location = new System.Drawing.Point(101, 3);
+            this.textBoxMoTa_Thuoc.Location = new System.Drawing.Point(100, 3);
             this.textBoxMoTa_Thuoc.Name = "textBoxMoTa_Thuoc";
             this.textBoxMoTa_Thuoc.Size = new System.Drawing.Size(198, 20);
             this.textBoxMoTa_Thuoc.TabIndex = 17;
@@ -213,7 +213,7 @@
             this.labelSoLuongTheoDonViBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelSoLuongTheoDonViBan_Thuoc.Location = new System.Drawing.Point(3, 196);
             this.labelSoLuongTheoDonViBan_Thuoc.Name = "labelSoLuongTheoDonViBan_Thuoc";
-            this.labelSoLuongTheoDonViBan_Thuoc.Size = new System.Drawing.Size(92, 32);
+            this.labelSoLuongTheoDonViBan_Thuoc.Size = new System.Drawing.Size(91, 32);
             this.labelSoLuongTheoDonViBan_Thuoc.TabIndex = 15;
             this.labelSoLuongTheoDonViBan_Thuoc.Text = "Số lượng theo đơn vị bán";
             this.labelSoLuongTheoDonViBan_Thuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -224,7 +224,7 @@
             this.lableSoLuong_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lableSoLuong_Thuoc.Location = new System.Drawing.Point(3, 168);
             this.lableSoLuong_Thuoc.Name = "lableSoLuong_Thuoc";
-            this.lableSoLuong_Thuoc.Size = new System.Drawing.Size(92, 28);
+            this.lableSoLuong_Thuoc.Size = new System.Drawing.Size(91, 28);
             this.lableSoLuong_Thuoc.TabIndex = 13;
             this.lableSoLuong_Thuoc.Text = "Số lượng tồn trong kho";
             this.lableSoLuong_Thuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -235,7 +235,7 @@
             this.labelGiaTriQuyDoi_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelGiaTriQuyDoi_Thuoc.Location = new System.Drawing.Point(3, 140);
             this.labelGiaTriQuyDoi_Thuoc.Name = "labelGiaTriQuyDoi_Thuoc";
-            this.labelGiaTriQuyDoi_Thuoc.Size = new System.Drawing.Size(92, 28);
+            this.labelGiaTriQuyDoi_Thuoc.Size = new System.Drawing.Size(91, 28);
             this.labelGiaTriQuyDoi_Thuoc.TabIndex = 11;
             this.labelGiaTriQuyDoi_Thuoc.Text = "Giá trị quy đổi";
             this.labelGiaTriQuyDoi_Thuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -246,7 +246,7 @@
             this.labelGiaBanTheoDonVi_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelGiaBanTheoDonVi_Thuoc.Location = new System.Drawing.Point(3, 112);
             this.labelGiaBanTheoDonVi_Thuoc.Name = "labelGiaBanTheoDonVi_Thuoc";
-            this.labelGiaBanTheoDonVi_Thuoc.Size = new System.Drawing.Size(92, 28);
+            this.labelGiaBanTheoDonVi_Thuoc.Size = new System.Drawing.Size(91, 28);
             this.labelGiaBanTheoDonVi_Thuoc.TabIndex = 9;
             this.labelGiaBanTheoDonVi_Thuoc.Text = "Giá bán theo đơn vị";
             this.labelGiaBanTheoDonVi_Thuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -257,7 +257,7 @@
             this.labelDonViBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelDonViBan_Thuoc.Location = new System.Drawing.Point(3, 84);
             this.labelDonViBan_Thuoc.Name = "labelDonViBan_Thuoc";
-            this.labelDonViBan_Thuoc.Size = new System.Drawing.Size(92, 28);
+            this.labelDonViBan_Thuoc.Size = new System.Drawing.Size(91, 28);
             this.labelDonViBan_Thuoc.TabIndex = 7;
             this.labelDonViBan_Thuoc.Text = "Đơn vị bán";
             this.labelDonViBan_Thuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -268,7 +268,7 @@
             this.labelHanSuDung_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelHanSuDung_Thuoc.Location = new System.Drawing.Point(3, 56);
             this.labelHanSuDung_Thuoc.Name = "labelHanSuDung_Thuoc";
-            this.labelHanSuDung_Thuoc.Size = new System.Drawing.Size(92, 28);
+            this.labelHanSuDung_Thuoc.Size = new System.Drawing.Size(91, 28);
             this.labelHanSuDung_Thuoc.TabIndex = 5;
             this.labelHanSuDung_Thuoc.Text = "Hạn sử dụng";
             this.labelHanSuDung_Thuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -279,7 +279,7 @@
             this.labelHinhAnh_Text.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelHinhAnh_Text.Location = new System.Drawing.Point(3, 28);
             this.labelHinhAnh_Text.Name = "labelHinhAnh_Text";
-            this.labelHinhAnh_Text.Size = new System.Drawing.Size(92, 28);
+            this.labelHinhAnh_Text.Size = new System.Drawing.Size(91, 28);
             this.labelHinhAnh_Text.TabIndex = 3;
             this.labelHinhAnh_Text.Text = "Hình ảnh";
             this.labelHinhAnh_Text.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -290,7 +290,7 @@
             this.labelMoTa_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelMoTa_Thuoc.Location = new System.Drawing.Point(3, 0);
             this.labelMoTa_Thuoc.Name = "labelMoTa_Thuoc";
-            this.labelMoTa_Thuoc.Size = new System.Drawing.Size(92, 28);
+            this.labelMoTa_Thuoc.Size = new System.Drawing.Size(91, 28);
             this.labelMoTa_Thuoc.TabIndex = 1;
             this.labelMoTa_Thuoc.Text = "Mô tả";
             this.labelMoTa_Thuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,13 +298,21 @@
             // buttonHinhAnh_Thuoc
             // 
             this.buttonHinhAnh_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonHinhAnh_Thuoc.Location = new System.Drawing.Point(101, 31);
+            this.buttonHinhAnh_Thuoc.Location = new System.Drawing.Point(100, 31);
             this.buttonHinhAnh_Thuoc.Name = "buttonHinhAnh_Thuoc";
             this.buttonHinhAnh_Thuoc.Size = new System.Drawing.Size(198, 22);
             this.buttonHinhAnh_Thuoc.TabIndex = 16;
             this.buttonHinhAnh_Thuoc.Text = "Tải ảnh lên";
             this.buttonHinhAnh_Thuoc.UseVisualStyleBackColor = true;
             this.buttonHinhAnh_Thuoc.Click += new System.EventHandler(this.buttonHinhAnh_Thuoc_Click);
+            // 
+            // dateTimeHanSuDung_Thuoc
+            // 
+            this.dateTimeHanSuDung_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateTimeHanSuDung_Thuoc.Location = new System.Drawing.Point(100, 59);
+            this.dateTimeHanSuDung_Thuoc.Name = "dateTimeHanSuDung_Thuoc";
+            this.dateTimeHanSuDung_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.dateTimeHanSuDung_Thuoc.TabIndex = 24;
             // 
             // tableLayoutPanel2
             // 
@@ -313,12 +321,12 @@
             this.tableLayoutPanel2.Controls.Add(this.pictureBoxThuoc_Thuoc, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(618, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(616, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.95699F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.04301F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(237, 228);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(239, 228);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // pictureBoxThuoc_Thuoc
@@ -326,7 +334,7 @@
             this.pictureBoxThuoc_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBoxThuoc_Thuoc.Location = new System.Drawing.Point(3, 3);
             this.pictureBoxThuoc_Thuoc.Name = "pictureBoxThuoc_Thuoc";
-            this.pictureBoxThuoc_Thuoc.Size = new System.Drawing.Size(231, 171);
+            this.pictureBoxThuoc_Thuoc.Size = new System.Drawing.Size(233, 171);
             this.pictureBoxThuoc_Thuoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxThuoc_Thuoc.TabIndex = 0;
             this.pictureBoxThuoc_Thuoc.TabStop = false;
@@ -345,7 +353,7 @@
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(231, 45);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(233, 45);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
             // buttonDelete_Thuoc
@@ -353,7 +361,7 @@
             this.buttonDelete_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonDelete_Thuoc.Location = new System.Drawing.Point(157, 3);
             this.buttonDelete_Thuoc.Name = "buttonDelete_Thuoc";
-            this.buttonDelete_Thuoc.Size = new System.Drawing.Size(71, 39);
+            this.buttonDelete_Thuoc.Size = new System.Drawing.Size(73, 39);
             this.buttonDelete_Thuoc.TabIndex = 2;
             this.buttonDelete_Thuoc.Text = "Xoá";
             this.buttonDelete_Thuoc.UseVisualStyleBackColor = true;
@@ -417,7 +425,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(301, 228);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(300, 228);
             this.tableLayoutPanel5.TabIndex = 2;
             this.tableLayoutPanel5.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel5_Paint);
             // 
@@ -426,7 +434,7 @@
             this.textBoxDonViCoBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxDonViCoBan_Thuoc.Location = new System.Drawing.Point(100, 199);
             this.textBoxDonViCoBan_Thuoc.Name = "textBoxDonViCoBan_Thuoc";
-            this.textBoxDonViCoBan_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxDonViCoBan_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxDonViCoBan_Thuoc.TabIndex = 21;
             // 
             // textBoxGiaBan_Thuoc
@@ -434,7 +442,7 @@
             this.textBoxGiaBan_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxGiaBan_Thuoc.Location = new System.Drawing.Point(100, 171);
             this.textBoxGiaBan_Thuoc.Name = "textBoxGiaBan_Thuoc";
-            this.textBoxGiaBan_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxGiaBan_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxGiaBan_Thuoc.TabIndex = 20;
             // 
             // textBoxHangSanXuat_Thuoc
@@ -442,7 +450,7 @@
             this.textBoxHangSanXuat_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxHangSanXuat_Thuoc.Location = new System.Drawing.Point(100, 143);
             this.textBoxHangSanXuat_Thuoc.Name = "textBoxHangSanXuat_Thuoc";
-            this.textBoxHangSanXuat_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxHangSanXuat_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxHangSanXuat_Thuoc.TabIndex = 19;
             // 
             // textBoxQuyCachDongGoi_Thuoc
@@ -450,7 +458,7 @@
             this.textBoxQuyCachDongGoi_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxQuyCachDongGoi_Thuoc.Location = new System.Drawing.Point(100, 115);
             this.textBoxQuyCachDongGoi_Thuoc.Name = "textBoxQuyCachDongGoi_Thuoc";
-            this.textBoxQuyCachDongGoi_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxQuyCachDongGoi_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxQuyCachDongGoi_Thuoc.TabIndex = 18;
             // 
             // textBoxHamLuong_Thuoc
@@ -458,7 +466,7 @@
             this.textBoxHamLuong_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxHamLuong_Thuoc.Location = new System.Drawing.Point(100, 87);
             this.textBoxHamLuong_Thuoc.Name = "textBoxHamLuong_Thuoc";
-            this.textBoxHamLuong_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxHamLuong_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxHamLuong_Thuoc.TabIndex = 17;
             // 
             // comboBoxLoaiThuoc_Thuoc
@@ -468,7 +476,7 @@
             this.comboBoxLoaiThuoc_Thuoc.FormattingEnabled = true;
             this.comboBoxLoaiThuoc_Thuoc.Location = new System.Drawing.Point(100, 3);
             this.comboBoxLoaiThuoc_Thuoc.Name = "comboBoxLoaiThuoc_Thuoc";
-            this.comboBoxLoaiThuoc_Thuoc.Size = new System.Drawing.Size(198, 21);
+            this.comboBoxLoaiThuoc_Thuoc.Size = new System.Drawing.Size(197, 21);
             this.comboBoxLoaiThuoc_Thuoc.TabIndex = 3;
             // 
             // labelDonViCoBan_Thuoc
@@ -566,7 +574,7 @@
             this.comboBoxNcc_Thuoc.FormattingEnabled = true;
             this.comboBoxNcc_Thuoc.Location = new System.Drawing.Point(100, 31);
             this.comboBoxNcc_Thuoc.Name = "comboBoxNcc_Thuoc";
-            this.comboBoxNcc_Thuoc.Size = new System.Drawing.Size(198, 21);
+            this.comboBoxNcc_Thuoc.Size = new System.Drawing.Size(197, 21);
             this.comboBoxNcc_Thuoc.TabIndex = 15;
             // 
             // textBoxTenThuoc_Thuoc
@@ -574,7 +582,7 @@
             this.textBoxTenThuoc_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxTenThuoc_Thuoc.Location = new System.Drawing.Point(100, 59);
             this.textBoxTenThuoc_Thuoc.Name = "textBoxTenThuoc_Thuoc";
-            this.textBoxTenThuoc_Thuoc.Size = new System.Drawing.Size(198, 20);
+            this.textBoxTenThuoc_Thuoc.Size = new System.Drawing.Size(197, 20);
             this.textBoxTenThuoc_Thuoc.TabIndex = 16;
             // 
             // dataGridView_Thuoc
@@ -606,6 +614,7 @@
             this.dataGridView_Thuoc.Location = new System.Drawing.Point(3, 283);
             this.dataGridView_Thuoc.MultiSelect = false;
             this.dataGridView_Thuoc.Name = "dataGridView_Thuoc";
+            this.dataGridView_Thuoc.ReadOnly = true;
             this.dataGridView_Thuoc.RowHeadersVisible = false;
             this.dataGridView_Thuoc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_Thuoc.Size = new System.Drawing.Size(858, 330);
@@ -616,96 +625,113 @@
             // 
             this.maThuoc.HeaderText = "Mã thuốc";
             this.maThuoc.Name = "maThuoc";
+            this.maThuoc.ReadOnly = true;
             // 
             // maLt
             // 
             this.maLt.HeaderText = "Loại thuốc";
             this.maLt.Name = "maLt";
+            this.maLt.ReadOnly = true;
             // 
             // maNcc
             // 
             this.maNcc.HeaderText = "Nhà cung cấp";
             this.maNcc.Name = "maNcc";
+            this.maNcc.ReadOnly = true;
             // 
             // tenThuoc
             // 
             this.tenThuoc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.tenThuoc.HeaderText = "Tên thuốc";
             this.tenThuoc.Name = "tenThuoc";
+            this.tenThuoc.ReadOnly = true;
             // 
             // hamLuong
             // 
             this.hamLuong.HeaderText = "Hàm lượng";
             this.hamLuong.Name = "hamLuong";
+            this.hamLuong.ReadOnly = true;
             this.hamLuong.Visible = false;
             // 
             // quyCachDongGoi
             // 
             this.quyCachDongGoi.HeaderText = "Quy cách đóng gói";
             this.quyCachDongGoi.Name = "quyCachDongGoi";
+            this.quyCachDongGoi.ReadOnly = true;
             this.quyCachDongGoi.Visible = false;
             // 
             // hangSx
             // 
             this.hangSx.HeaderText = "Hãng sản xuất";
             this.hangSx.Name = "hangSx";
+            this.hangSx.ReadOnly = true;
             this.hangSx.Visible = false;
             // 
             // donViCoBan
             // 
             this.donViCoBan.HeaderText = "Đơn vị cơ bản";
             this.donViCoBan.Name = "donViCoBan";
+            this.donViCoBan.ReadOnly = true;
             this.donViCoBan.Visible = false;
             // 
             // soLuong
             // 
             this.soLuong.HeaderText = "Số lượng";
             this.soLuong.Name = "soLuong";
+            this.soLuong.ReadOnly = true;
             // 
             // giaBan
             // 
             this.giaBan.HeaderText = "Giá bán";
             this.giaBan.Name = "giaBan";
+            this.giaBan.ReadOnly = true;
             // 
             // moTa
             // 
             this.moTa.HeaderText = "Mô tả";
             this.moTa.Name = "moTa";
+            this.moTa.ReadOnly = true;
             this.moTa.Visible = false;
             // 
             // hinhAnh
             // 
             this.hinhAnh.HeaderText = "Hình ảnh";
             this.hinhAnh.Name = "hinhAnh";
+            this.hinhAnh.ReadOnly = true;
             this.hinhAnh.Visible = false;
             // 
             // hanSd
             // 
             this.hanSd.HeaderText = "Hạn sử dụng";
             this.hanSd.Name = "hanSd";
+            this.hanSd.ReadOnly = true;
             this.hanSd.Visible = false;
             // 
             // donViBan
             // 
             this.donViBan.HeaderText = "Đơn vị bán";
             this.donViBan.Name = "donViBan";
+            this.donViBan.ReadOnly = true;
             // 
             // giaTriQuyDoi
             // 
             this.giaTriQuyDoi.HeaderText = "Giá trị quy đổi";
             this.giaTriQuyDoi.Name = "giaTriQuyDoi";
+            this.giaTriQuyDoi.ReadOnly = true;
             this.giaTriQuyDoi.Visible = false;
             // 
             // giaBanTheoDvBan
             // 
             this.giaBanTheoDvBan.HeaderText = "Giá bán theo đơn vị bán";
             this.giaBanTheoDvBan.Name = "giaBanTheoDvBan";
+            this.giaBanTheoDvBan.ReadOnly = true;
             this.giaBanTheoDvBan.Visible = false;
             // 
             // soLuongTheoDvBan
             // 
             this.soLuongTheoDvBan.HeaderText = "Số lượng theo đơn vị bán";
             this.soLuongTheoDvBan.Name = "soLuongTheoDvBan";
+            this.soLuongTheoDvBan.ReadOnly = true;
             this.soLuongTheoDvBan.Visible = false;
             // 
             // tableLayoutPanel4
@@ -799,14 +825,6 @@
             this.buttonHuyTimKiem_Thuoc.Text = "Huỷ tìm kiếm";
             this.buttonHuyTimKiem_Thuoc.UseVisualStyleBackColor = true;
             this.buttonHuyTimKiem_Thuoc.Click += new System.EventHandler(this.buttonHuyTimKiem_Thuoc_Click);
-            // 
-            // dateTimeHanSuDung_Thuoc
-            // 
-            this.dateTimeHanSuDung_Thuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dateTimeHanSuDung_Thuoc.Location = new System.Drawing.Point(101, 59);
-            this.dateTimeHanSuDung_Thuoc.Name = "dateTimeHanSuDung_Thuoc";
-            this.dateTimeHanSuDung_Thuoc.Size = new System.Drawing.Size(198, 20);
-            this.dateTimeHanSuDung_Thuoc.TabIndex = 24;
             // 
             // Thuoc
             // 

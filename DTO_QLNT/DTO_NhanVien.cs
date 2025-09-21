@@ -20,6 +20,12 @@ namespace DTO_QLNT
         // Constructor mặc định
         public DTO_NhanVien() { }
 
+        public DTO_NhanVien(string userName, string hoTen)
+        {
+            UserName = userName;
+            HoTen = hoTen;
+        }
+
         // Constructor đầy đủ
         public DTO_NhanVien(string userName, string passWord, string hoTen,
                             DateTime ngaySinh, string gioiTinh, string diaChi,

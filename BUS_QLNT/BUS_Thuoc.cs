@@ -23,6 +23,11 @@ namespace BUS_QLNT
             return dalThuoc.Get(keyword);
         }
 
+        public DataTable GetSimple()
+        {
+            return dalThuoc.GetSimple();
+        }
+
         public bool Insert(DTO_Thuoc t)
         {
             return dalThuoc.Insert(t);

@@ -53,7 +53,7 @@ namespace GUI_QLNT
 
         private void BtnLoaiDP_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Quản lý loại dược phẩm");
+            OpenChildForm(new LoaiThuoc());
         }
 
         private void BtnThuoc_Click(object sender, EventArgs e)
@@ -64,7 +64,7 @@ namespace GUI_QLNT
 
         private void BtnNhapThuoc_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nhập thuốc");
+            OpenChildForm(new NhapHang());
         }
 
         private void BtnTKNhap_Click(object sender, EventArgs e)

@@ -49,6 +49,7 @@
     <Compile Include="DTO_LoaiThuoc.cs" />
     <Compile Include="DTO_NCC.cs" />
     <Compile Include="DTO_NhanVien.cs" />
+    <Compile Include="DTO_NhapHang.cs" />
     <Compile Include="DTO_Thuoc.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

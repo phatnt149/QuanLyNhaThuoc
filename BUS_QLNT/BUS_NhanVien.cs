@@ -23,6 +23,11 @@ namespace BUS_QLNT
             return dalNhanVien.getNhanVien(s);
         }
 
+        public DataTable GetSimple()
+        {
+            return dalNhanVien.GetSimple();
+        }
+
         public DataTable timNhanVienTheoUserName(string s)
         {
             return dalNhanVien.timNhanVienTheoUserName(s);
