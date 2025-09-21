@@ -172,6 +172,7 @@ namespace DAL_QLNT
         /// <param name="username"></param>
         /// <param name="password"></param>
         /// <returns></returns>
+        /// <exception cref="Exception">Các lỗi liên quan đến truy vấn kết nối cơ sở dữ liệu</exception>
         public DTO_NhanVien DangNhap(string username, string password)
         {
             try

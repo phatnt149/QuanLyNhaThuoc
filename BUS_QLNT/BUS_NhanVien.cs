@@ -47,6 +47,15 @@ namespace BUS_QLNT
             return dalNhanVien.xoaNhanVien(userName);
         }
 
+        /// <summary>
+        /// Xử lý đăng nhập người dùng
+        /// 
+        /// Mật khẩu của người dùng sẽ được băm bằng mã hoá MD5
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <param name="passWord"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception">Nếu sai tên đăng nhập, mật khẩu, tài khoản không tồn tại</exception>
         public DTO_NhanVien DangNhap(string userName, string passWord)
         {
             string hassedPass = maHoaMD5(passWord);
