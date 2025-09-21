@@ -1,5 +1,5 @@
 ﻿
-using GUI_QLNV;
+using GUI_QLNT;
 using System;
 using System.Windows.Forms;
 

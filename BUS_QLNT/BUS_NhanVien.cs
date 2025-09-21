@@ -13,6 +13,8 @@ namespace BUS_QLNT
     public class BUS_NhanVien
     {
         DAL_NhanVien dalNhanVien = new DAL_NhanVien();
+        public static string userName { get; set; }
+        public static string chucvu { get; set; }
         public DataTable getNhanVien()
         {
             return dalNhanVien.getNhanVien();
@@ -37,9 +39,9 @@ namespace BUS_QLNT
             return dalNhanVien.themNhanVien(nv);
         }
 
-        public bool suaNhanVien(DTO_NhanVien nv)
+        public bool suaNhanVien(DTO_NhanVien nv,int n)
         {
-            return dalNhanVien.suaNhanVien(nv);
+            return dalNhanVien.suaNhanVien(nv, n);
         }
 
         public bool xoaNhanVien(string userName)

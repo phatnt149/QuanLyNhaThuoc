@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL_MaHoaMD5.cs" />
+    <Compile Include="DAL_ThongKeBan.cs" />
+    <Compile Include="DAL_ThongKeNhap.cs" />
     <Compile Include="DAL_NCC.cs" />
     <Compile Include="DAL_NhanVien.cs" />
     <Compile Include="DBConnect.cs" />

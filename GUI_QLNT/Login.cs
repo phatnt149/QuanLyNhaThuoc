@@ -34,7 +34,8 @@ namespace GUI_QLNT
                 var dtKQ = busNV.getNhanVien(query);
                 if (dtKQ.Rows.Count > 0)
                 {
-
+                    DataUser.userName = dtKQ.Rows[0]["username"].ToString();
+                    DataUser.chucvu = dtKQ.Rows[0]["chucvu"].ToString();
                     main m = new main();
                     m.Show();
                     this.Hide();

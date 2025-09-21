@@ -70,13 +70,15 @@ namespace DAL_QLNT
             return false;
         }
 
-        public bool suaNhanVien(DTO_NhanVien nv)
+        public bool suaNhanVien(DTO_NhanVien nv, int n)
         {
-            try
+            if (n == 1)
             {
-                // Ket noi
-                _conn.Open();
-                string SQL = @"UPDATE NHANVIEN
+                try
+                {
+                    // Ket noi
+                    _conn.Open();
+                    string SQL = @"UPDATE NHANVIEN
                SET passWord = @PassWord,
                    hoTen = @HoTen,
                    ngaySinh = @NgaySinh,
@@ -86,36 +88,127 @@ namespace DAL_QLNT
                    chucVu = @ChucVu
                WHERE userName = @UserName";
 
-                using (SqlCommand cmd = new SqlCommand(SQL, _conn))
-                {
-                    cmd.Parameters.AddWithValue("@UserName", nv.UserName);
-                    cmd.Parameters.AddWithValue("@PassWord", nv.PassWord);
-                    cmd.Parameters.AddWithValue("@HoTen", nv.HoTen);
-                    cmd.Parameters.AddWithValue("@NgaySinh", nv.NgaySinh);
-                    cmd.Parameters.AddWithValue("@GioiTinh", nv.GioiTinh);
-                    cmd.Parameters.AddWithValue("@DiaChi", nv.DiaChi);
-                    cmd.Parameters.AddWithValue("@ChucVu", nv.ChucVu);
+                    using (SqlCommand cmd = new SqlCommand(SQL, _conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserName", nv.UserName);
+                        cmd.Parameters.AddWithValue("@PassWord", nv.PassWord);
+                        cmd.Parameters.AddWithValue("@HoTen", nv.HoTen);
+                        cmd.Parameters.AddWithValue("@NgaySinh", nv.NgaySinh);
+                        cmd.Parameters.AddWithValue("@GioiTinh", nv.GioiTinh);
+                        cmd.Parameters.AddWithValue("@DiaChi", nv.DiaChi);
+                        cmd.Parameters.AddWithValue("@ChucVu", nv.ChucVu);
 
-                    if (nv.HinhAnh != null)
-                        cmd.Parameters.Add("@HinhAnh", SqlDbType.VarBinary).Value = nv.HinhAnh;
-                    else
-                        cmd.Parameters.Add("@HinhAnh", SqlDbType.VarBinary).Value = DBNull.Value;
+                        if (nv.HinhAnh != null)
+                            cmd.Parameters.Add("@HinhAnh", SqlDbType.VarBinary).Value = nv.HinhAnh;
+                        else
+                            cmd.Parameters.Add("@HinhAnh", SqlDbType.VarBinary).Value = DBNull.Value;
 
-                    if (cmd.ExecuteNonQuery() > 0)
-                        return true;
+                        if (cmd.ExecuteNonQuery() > 0)
+                            return true;
+                    }
+
+
                 }
+                catch (Exception e)
+                {
+                }
+                finally
+                {
+                    // Dong ket noi
+                    _conn.Close();
+                }
+                return false;
+            }
+            else if (n == 2)
+            {
+                try
+                {
+                    // Ket noi
+                    _conn.Open();
+                    string SQL = @"UPDATE NHANVIEN
+               SET 
+                   hoTen = @HoTen,
+                   ngaySinh = @NgaySinh,
+                   gioiTinh = @GioiTinh,
+                   diaChi = @DiaChi,
+                   hinhAnh = @HinhAnh,
+                   chucVu = @ChucVu
+               WHERE userName = @UserName";
+
+                    using (SqlCommand cmd = new SqlCommand(SQL, _conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserName", nv.UserName);
+                        cmd.Parameters.AddWithValue("@HoTen", nv.HoTen);
+                        cmd.Parameters.AddWithValue("@NgaySinh", nv.NgaySinh);
+                        cmd.Parameters.AddWithValue("@GioiTinh", nv.GioiTinh);
+                        cmd.Parameters.AddWithValue("@DiaChi", nv.DiaChi);
+                        cmd.Parameters.AddWithValue("@ChucVu", nv.ChucVu);
+
+                        if (nv.HinhAnh != null)
+                            cmd.Parameters.Add("@HinhAnh", SqlDbType.VarBinary).Value = nv.HinhAnh;
+                        else
+                            cmd.Parameters.Add("@HinhAnh", SqlDbType.VarBinary).Value = DBNull.Value;
+
+                        if (cmd.ExecuteNonQuery() > 0)
+                            return true;
+                    }
 
 
+                }
+                catch (Exception e)
+                {
+                }
+                finally
+                {
+                    // Dong ket noi
+                    _conn.Close();
+                }
+                return false;
             }
-            catch (Exception e)
+            else
             {
+                try
+                {
+                    // Ket noi
+                    _conn.Open();
+                    string SQL = @"UPDATE NHANVIEN
+               SET
+                   hoTen = @HoTen,
+                   ngaySinh = @NgaySinh,
+                   gioiTinh = @GioiTinh,
+                   diaChi = @DiaChi,
+                   hinhAnh = @HinhAnh
+               WHERE userName = @UserName";
+
+                    using (SqlCommand cmd = new SqlCommand(SQL, _conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserName", nv.UserName);
+                        cmd.Parameters.AddWithValue("@HoTen", nv.HoTen);
+                        cmd.Parameters.AddWithValue("@NgaySinh", nv.NgaySinh);
+                        cmd.Parameters.AddWithValue("@GioiTinh", nv.GioiTinh);
+                        cmd.Parameters.AddWithValue("@DiaChi", nv.DiaChi);
+
+                        if (nv.HinhAnh != null)
+                            cmd.Parameters.Add("@HinhAnh", SqlDbType.VarBinary).Value = nv.HinhAnh;
+                        else
+                            cmd.Parameters.Add("@HinhAnh", SqlDbType.VarBinary).Value = DBNull.Value;
+
+                        if (cmd.ExecuteNonQuery() > 0)
+                            return true;
+                    }
+
+
+                }
+                catch (Exception e)
+                {
+                }
+                finally
+                {
+                    // Dong ket noi
+                    _conn.Close();
+                }
+                return false;
             }
-            finally
-            {
-                // Dong ket noi
-                _conn.Close();
-            }
-            return false;
         }
 
         public bool xoaNhanVien(string userName)

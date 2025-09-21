@@ -26,6 +26,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnReload = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -33,8 +34,6 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,6 +46,7 @@
             this.txtChucVu = new System.Windows.Forms.TextBox();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnChonAnh = new System.Windows.Forms.Button();
             this.grd_qlnv = new System.Windows.Forms.DataGridView();
             this.colUsername = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,16 +56,16 @@
             this.colDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colChucVu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colHinhAnh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnReload = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grd_qlnv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grd_qlnv)).BeginInit();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -83,7 +83,6 @@
             this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
             this.thêmToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.thêmToolStripMenuItem.Text = "Thêm";
-            this.thêmToolStripMenuItem.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
             // 
             // sửaToolStripMenuItem
             // 
@@ -148,6 +147,16 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(130, 198);
             this.tableLayoutPanel3.TabIndex = 0;
+            // 
+            // btnReload
+            // 
+            this.btnReload.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnReload.Location = new System.Drawing.Point(3, 101);
+            this.btnReload.Name = "btnReload";
+            this.btnReload.Size = new System.Drawing.Size(124, 43);
+            this.btnReload.TabIndex = 13;
+            this.btnReload.Text = "Reload";
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // btnDelete
             // 
@@ -244,25 +253,6 @@
             this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 35;
             this.label3.Text = "Họ Tên";
-            // 
-            // txtPass
-            // 
-            this.txtPass.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtPass.Location = new System.Drawing.Point(400, 6);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(134, 20);
-            this.txtPass.TabIndex = 2;
-            this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.Location = new System.Drawing.Point(325, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 13);
-            this.label2.TabIndex = 33;
-            this.label2.Text = "password";
             // 
             // txtUserName
             // 
@@ -381,6 +371,20 @@
             this.txtTimKiem.Click += new System.EventHandler(this.txtTimKiem_Click);
             this.txtTimKiem.Leave += new System.EventHandler(this.txtTimKiem_Leave);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tableLayoutPanel2.SetColumnSpan(this.pictureBox1, 2);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(325, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.tableLayoutPanel2.SetRowSpan(this.pictureBox1, 5);
+            this.pictureBox1.Size = new System.Drawing.Size(209, 129);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 47;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // btnChonAnh
             // 
             this.btnChonAnh.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -454,29 +458,25 @@
             this.colHinhAnh.Name = "colHinhAnh";
             this.colHinhAnh.Visible = false;
             // 
-            // btnReload
+            // label2
             // 
-            this.btnReload.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnReload.Location = new System.Drawing.Point(3, 101);
-            this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(124, 43);
-            this.btnReload.TabIndex = 13;
-            this.btnReload.Text = "Reload";
-            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label2.Location = new System.Drawing.Point(325, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 13);
+            this.label2.TabIndex = 33;
+            this.label2.Text = "password";
             // 
-            // pictureBox1
+            // txtPass
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tableLayoutPanel2.SetColumnSpan(this.pictureBox1, 2);
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(325, 32);
-            this.pictureBox1.Name = "pictureBox1";
-            this.tableLayoutPanel2.SetRowSpan(this.pictureBox1, 5);
-            this.pictureBox1.Size = new System.Drawing.Size(209, 129);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 47;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.txtPass.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtPass.Location = new System.Drawing.Point(400, 6);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(134, 20);
+            this.txtPass.TabIndex = 2;
+            this.txtPass.Text = "********";
+            this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 
             // NhanVien
             // 
@@ -495,8 +495,8 @@
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grd_qlnv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grd_qlnv)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -514,8 +514,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtHoTen;
         private System.Windows.Forms.Label label4;
@@ -542,5 +540,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colChucVu;
         private System.Windows.Forms.DataGridViewTextBoxColumn colHinhAnh;
         private System.Windows.Forms.Button btnReload;
+        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.Label label2;
     }
 }

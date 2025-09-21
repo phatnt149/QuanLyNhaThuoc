@@ -1,5 +1,5 @@
 ﻿using BUS_QLNT;
-using GUI_QLNV;
+using GUI_QLNT;
 using System;
 using System.Drawing;
 using System.IO;
@@ -41,17 +41,6 @@ namespace GUI_QLNT
         public void LoadNhanVien()
         {
             grd_qlnv.DataSource = busNV.getNhanVien();
-        }
-
-        private void thêmToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-
-
-            NhanVienDetail frmNvDetail = new NhanVienDetail();
-            frmNvDetail.TopMost = true; // luôn trên cùng
-            frmNvDetail.StartPosition = FormStartPosition.CenterScreen;
-            frmNvDetail.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -144,14 +133,29 @@ namespace GUI_QLNT
                 string chucVu = txtChucVu.Text;
                 // Tạo DTo
                 DTO_NhanVien nv = new DTO_NhanVien(userName, passWord, hoTen, ngaySinh, gioiTinh, diaChi, hinhAnh, chucVu);
-                if (busNV.suaNhanVien(nv))
+                if(txtPass.Text == "********")
                 {
-                    MessageBox.Show("Sửa thành công");
-                    this.LoadNhanVien();
+                    if (busNV.suaNhanVien(nv,2))
+                    {
+                        MessageBox.Show("Sửa thành công");
+                        this.LoadNhanVien();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sửa ko thành công");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Sửa ko thành công");
+                    if (busNV.suaNhanVien(nv,1))
+                    {
+                        MessageBox.Show("Sửa thành công");
+                        this.LoadNhanVien();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sửa ko thành công");
+                    }
                 }
             }
             else
